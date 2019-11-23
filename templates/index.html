@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{%  load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{%  static "css/style.css" %}" />
+    <title>Main page</title>
+</head>
+<body>
+<div id="rectangle"></div>
+<div class="header_text">Расписание для организаций</div>
+<div class="find_text">Поиск организации:</div>
+<div class="main_bar_text">Организации</div>
+{%  for org in organizations %}
+{% endfor %}
+</body>
+</html>

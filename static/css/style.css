@@ -1,0 +1,59 @@
+body {
+ background-color: #000;
+ background-image: url("../images/pages_bg.png");
+}
+
+#rectangle
+{
+    width: 60vw;
+    height: 2.5vw;
+    position: fixed;
+    top: 50px;
+    left: 20vw;
+    background: lightgray;
+}
+
+.header_text
+{
+    position: fixed;
+    left: 20vw;
+    top: 8px;
+    font-size: 30px;
+    font-family: "Times New Roman", sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+.find_text
+{
+    position: fixed;
+    left: 20vw;
+    top: 90px;
+    font-size: 30px;
+    font-family: "Times New Roman", sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+.main_bar_text
+{
+    position: fixed;
+    left: 45vw;
+    top: 55px;
+    font-size: 20px;
+    font-family: "Times New Roman", sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+h1
+{
+    color: blue;
+}
+
+img
+{
+    width: 350px;
+}
+
+
