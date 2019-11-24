@@ -13,5 +13,14 @@
 <div class="main_bar_text">Организации</div>
 {%  for org in organizations %}
 {% endfor %}
+    {% if user.is_authenticated %}
+      Привет, {{ user.username }}!
+      <br>
+      <a href="/logout">Выход</a>
+    {% else %}
+      <a href="/login">Вход</a>
+      <br>
+      <a href="/register">Регистрация</a>
+    {% endif %}
 </body>
 </html>

@@ -15,10 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.urls import re_path
 from course_job import views
+from django.conf.urls import include, url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path('^$', views.index, name='index'),
+    url('^$', views.index, name='index'),
+    url(r'^register/$', views.RegisterFormView.as_view()),
+    url(r'^login/$', views.LoginFormView.as_view()),
+    url(r'^logout/$', views.LogoutView.as_view()),
 ]
