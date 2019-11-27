@@ -3,16 +3,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{%  static "css/style.css" %}" />
+    <link rel="stylesheet" media="all" type="text/css" href="{%  static "css/style.css" %}" />
     <title>Main page</title>
 </head>
 <body>
+
+{% block header_rect %}
 <div id="rectangle"></div>
+{% endblock %}
+
+{% block header_text %}
 <div class="header_text">Расписание для организаций</div>
+{% endblock %}
+
+{% block find_text %}
 <div class="find_text">Поиск организации:</div>
+{% endblock %}
+
+{% block main_bar_text %}
 <div class="main_bar_text">Организации</div>
-{%  for org in organizations %}
-{% endfor %}
+{% endblock %}
+
+<table>
+    <tr>
+        <td><a href="grid_dynamics">{{ organizations.0.name }}</a></td>
+        <td><a href="google">{{ organizations.1.name }}</a></td>
+        <td><a href="yandex">{{ organizations.2.name }}</a></td>
+    </tr>
+    <tr>
+        <td><a href="cdec">{{ organizations.3.name }}</a></td>
+        <td><a href="boss">{{ organizations.4.name }}</a></td>
+        <td><a href="ferrari">{{ organizations.5.name }}</a></td></tr>
+</table>
+
+{% block auth %}
+<div style="width:100%; height:1px; clear:both;"></div>
     {% if user.is_authenticated %}
       Привет, {{ user.username }}!
       <br>
@@ -22,5 +47,7 @@
       <br>
       <a href="/register">Регистрация</a>
     {% endif %}
+{% endblock %}
+
 </body>
 </html>

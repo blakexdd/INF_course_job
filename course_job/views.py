@@ -60,12 +60,20 @@ with open('package.json', 'r') as read_file:
     # assigning data from data to organizations variable
     organizations = data['organizations']
 
+    list_of_three = []
+
+    for i in range(0, len(organizations), 3):
+        list_of_three.append([organizations[i], organizations[i + 1], organizations[i + 2]])
+
     # forming dictionary of parameters to give
     # it as a third argument to render function
     # for index page
-    dict_index = {'organizations': organizations}
+    dict_index = {'organizations': organizations, 'list_of_three': list_of_three}
 
 
 
 def index(request):
     return render(request, 'index.html', dict_index)
+
+def org_page(request):
+    return render(request, 'griddynamics.html', {})
