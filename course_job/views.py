@@ -1,12 +1,14 @@
 from django.views.generic.edit import FormView
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from django.contrib.auth import login, logout, get_user_model
 from django.views.generic.base import View
 from django.http import HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
 import json
 import os
+from organizations.views import Organization
+from django.template import RequestContext
 
 # creating register form class
 class RegisterFormView(FormView):
@@ -77,3 +79,7 @@ def index(request):
 
 def org_page(request):
     return render(request, 'griddynamics.html', {})
+
+def home(request):
+    vars = dict(organizations=Organization.objects.all())
+    return render(request, 'index.html', vars)
