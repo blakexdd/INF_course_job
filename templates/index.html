@@ -27,14 +27,14 @@
 <div class="main_bar_text">Организации</div>
 {% endblock %}
 
-
-
 {% block content %}
+    <div class="organizations">
     {% for org in organizations %}
         <a href="{% url 'orgs:one_org' org.id %}">
         {{ org.name }}
         </a>
     {% endfor %}
+    </div>
 {% endblock %}
 
 {% block auth %}

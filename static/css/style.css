@@ -71,6 +71,13 @@ td {
     color: white;
 }
 
+.organizations
+{
+    position: fixed;
+    left: 45vw;
+    top: 15vw;
+}
+
 h1
 {
     color: blue;
