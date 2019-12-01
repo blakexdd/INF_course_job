@@ -11,6 +11,19 @@
 </head>
 <body>
 
+<style type="text/css">
+   .organization {
+       display: table;
+       position: fixed;
+    left: 20vw;
+    top: 15vw;
+    font-size: 3vw;
+    font-family: "Times New Roman", sans-serif;
+    font-style: italic;
+    color: blue;
+   }
+</style>
+
 {% block header_rect %}
 <div id="rectangle"></div>
 {% endblock %}
@@ -27,15 +40,54 @@
 <div class="main_bar_text">Организации</div>
 {% endblock %}
 
+<div class="organization">
 {% block content %}
-    <div class="organizations">
+    <table>
     {% for org in organizations %}
-        <a href="{% url 'orgs:one_org' org.id %}">
-        {{ org.name }}
-        </a>
+        {% if org.1.id == -1 %}
+             <tr>
+            <td>
+                <a href="{% url 'orgs:one_org' org.0.id %}">
+                    {{ org.0.name }}
+                </a>
+            </td>
+             </tr>
+        {% elif org.2.id == -1 %}
+            <tr>
+            <td>
+                <a href="{% url 'orgs:one_org' org.0.id %}">
+                    {{ org.0.name }}
+                </a>
+            </td>
+            <td>
+                <a href="{% url 'orgs:one_org' org.1.id %}">
+                    {{ org.1.name }}
+                </a>
+            </td>
+            </tr>
+        {% else %}
+        <tr>
+            <td>
+                <a href="{% url 'orgs:one_org' org.0.id %}">
+                    {{ org.0.name }}
+                </a>
+            </td>
+            <td>
+                <a href="{% url 'orgs:one_org' org.1.id %}">
+                    {{ org.1.name }}
+                </a>
+            </td>
+            <td>
+                <a href="{% url 'orgs:one_org' org.2.id %}">
+                    {{ org.2.name }}
+                </a>
+            </td>
+        </tr>
+        {% endif %}
     {% endfor %}
-    </div>
+    </table>
 {% endblock %}
+</div>
 
 {% block auth %}
 <div style="width:100%; height:1px; clear:both;"></div>

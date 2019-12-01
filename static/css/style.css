@@ -22,6 +22,17 @@ td {
     background: lightgray;
 }
 
+#organizations-1
+{
+    position: fixed;
+    left: 20vw;
+    top: 20vw;
+    font-size: 3vw;
+    font-family: "Times New Roman", sans-serif;
+    font-style: italic;
+    color: blue;
+}
+
 #organizations_rectangles
 {
     width: 30vw;
@@ -69,13 +80,6 @@ td {
     font-family: "Times New Roman", sans-serif;
     font-style: italic;
     color: white;
-}
-
-.organizations
-{
-    position: fixed;
-    left: 45vw;
-    top: 15vw;
 }
 
 h1

@@ -54,7 +54,7 @@ def userdashboardview(request):
            {'userfileslist': os.listdir(get_user_model().username)})
 
 
-#openning json file to read info from it
+# openning json file to read info from it
 with open('package.json', 'r') as read_file:
     # load data from json file to data variable
     data = json.load(read_file)
@@ -62,15 +62,10 @@ with open('package.json', 'r') as read_file:
     # assigning data from data to organizations variable
     organizations = data['organizations']
 
-    list_of_three = []
-
-    for i in range(0, len(organizations), 3):
-        list_of_three.append([organizations[i], organizations[i + 1], organizations[i + 2]])
-
     # forming dictionary of parameters to give
     # it as a third argument to render function
     # for index page
-    dict_index = {'organizations': organizations, 'list_of_three': list_of_three}
+    dict_index = {'organizations': organizations}
 
 
 
@@ -80,6 +75,32 @@ def index(request):
 def org_page(request):
     return render(request, 'griddynamics.html', {})
 
+# view function for home page
 def home(request):
-    vars = dict(organizations=Organization.objects.all())
+    # assigning organizations to organizations variable
+    organizations = list(Organization.objects.all())
+
+    # creating list there each row
+    # consists of three organizations
+    list_of_three = []
+    empty_org =  dict(id = -1, name = 0)
+
+    # if amount of organizations that is not
+    # dividable by 3, we assign zeroes to make
+    # len of out list divided by 3
+    if len(organizations) % 3 == 2:
+        organizations.append(empty_org)
+    elif len(organizations) % 3 == 1:
+        organizations.append(empty_org)
+        organizations.append(empty_org)
+
+    # filling in list_of_three list
+    for i in range(0, len(organizations), 3):
+        list_of_three.append([organizations[i], organizations[i + 1], organizations[i + 2]])
+
+    # creating dict to give it
+    # as third parameter to
+    # render function
+    vars = dict(organizations=list_of_three)
+
     return render(request, 'index.html', vars)
