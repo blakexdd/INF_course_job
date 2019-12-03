@@ -26,14 +26,20 @@
         <tr>
             <td> <b>Сотрудники: </b></td>
         <td>
+        <ol>
+            {% for person in personel %}
+                <li>
                     <ul>
-                        {% for person in personel %}
-                            <li>{{ person.id }}</li>
                             <li>{{ person.name }}</li>
                             <li>{{ person.surname }}</li>
                             <li>{{ person.middlename }}</li>
-                        {% endfor %}
+                            <li>{{ person.days }}</li>
+                        <ul>
+                        </ul>
                     </ul>
+                </li>
+            {% endfor %}
+        </ol>
         </td>
         </tr>
     </talbe>

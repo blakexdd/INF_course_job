@@ -130,6 +130,15 @@ def one_org(request, org_id):
     # assigning Organization object to org variable
     org = get_object_or_404(Organization, pk=org_id)
 
+    # parsing schedule for personel
+    #personal_dates = []
+    #for i in range(len(org.person.all())):
+    #    personal_dates.append(org.person.all()[i].days.all())
+
+    #print('Parsed list of dates for user: ', personal_dates)
+
+    print("Getting schedule of the company: ", org.person.all()[0].days.all())
+    print("Printing date: ", org.person.all()[0].days.all()[0].day)
     #print('Getting peesons of the company: ', org.person.all())
 
     # creating dict with organization fields
@@ -137,7 +146,7 @@ def one_org(request, org_id):
         name = org.name,
         year_of_est = org.year_of_est,
         location = org.location,
-        personel = org.person.all()
+        personel = org.person.all(),
     )
 
     return render(request, 'organizations/one_org.html', vars)
