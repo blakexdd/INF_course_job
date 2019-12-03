@@ -6,11 +6,37 @@
     <title>Title</title>
 </head>
 <body>
+{% block find_text %}
+<div class="find_text">Информация об организации</div>
+{% endblock %}
 {% block content %}
     <div id="organizations-1">
-   <b> {{ name }} </b>
-   <b>{{ year_of_est }}</b>
-    <b>{{ location }}</b>
+    <talbe>
+        <tr>
+            <td><b>Название: </b>{{ name }}</td>
+        </tr>
+        <br>
+        <tr>
+            <td> <b>Дата основания:</b> {{ year_of_est }}</td>
+        </tr>
+        <br>
+        <tr>
+            <td> <b>Адрес: </b>{{ location }}</td>
+        </tr>
+        <tr>
+            <td> <b>Сотрудники: </b></td>
+        <td>
+                    <ul>
+                        {% for person in personel %}
+                            <li>{{ person.id }}</li>
+                            <li>{{ person.name }}</li>
+                            <li>{{ person.surname }}</li>
+                            <li>{{ person.middlename }}</li>
+                        {% endfor %}
+                    </ul>
+        </td>
+        </tr>
+    </talbe>
     </div>
 {% endblock %}
 </body>
