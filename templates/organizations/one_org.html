@@ -23,6 +23,11 @@
         <tr>
             <td> <b>Адрес: </b>{{ location }}</td>
         </tr>
+        <br>
+        <tr>
+            <b>Краткое описание:</b>{{ brief_description }}
+        </tr>
+        <br>
         <tr>
             <td> <b>Сотрудники: </b></td>
         <td>
@@ -33,6 +38,9 @@
                             <li>{{ person.0.name }}</li>
                             <li>{{ person.0.surname }}</li>
                             <li>{{ person.0.middlename }}</li>
+                            <li>{{ person.0.date_of_birth }}</li>
+                            <li>{{ person.0.post }}</li>
+                            <li>{{ person.0.hours_per_week }}</li>
                             <li><b>Расписание: </b></li>
                     <ul>
 

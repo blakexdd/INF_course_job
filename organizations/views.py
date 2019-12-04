@@ -29,11 +29,15 @@ with open("package.json") as packege:
     for new_organization in data['organizations']:
         if new_organization['name'] not in existing_orgs_names:
             # print(new_organization['name'], 'is not in existing organizations')
+            # creating description string
+            str_desc = "".join(new_organization['brief_decription'])
+
             # if organization doesn't exist, add new organization
             new_org = Organization(name=new_organization['name'], year_of_est=new_organization['year_of_establishing'],
                                    location='{} {} {}'.format(new_organization['location']['index'],
                                                               new_organization['location']['city'],
-                                                              new_organization['location']['adress']))
+                                                              new_organization['location']['adress']),
+                                   brief_description=str_desc)
             new_org.save()
 
             # creating particular person in the company from the database
@@ -60,11 +64,17 @@ with open("package.json") as packege:
         else:
             # print(new_organization['name'], 'is in EXISTING organizations')
             # print('new year_of_est: ', new_organization['year_of_establishing'])
+
+            # creating description string
+            str_desc = "".join(new_organization['brief_decription'])
+            #print('Desc str', str_desc)
+
             # if organizations exists, modify it's fields
             Organization.objects.filter(name=new_organization['name']).update(year_of_est=new_organization['year_of_establishing'],
                                                                               location='{} {} {}'.format(new_organization['location']['index'],
                                                              new_organization['location']['city'],
-                                                              new_organization['location']['adress']))
+                                                              new_organization['location']['adress']),
+                                                                              brief_description=str_desc)
 
             # deleting old instances
             old_personel = Organization.objects.filter(name=new_organization['name'])[0].person.all()
@@ -151,6 +161,7 @@ def one_org(request, org_id):
         name = org.name,
         year_of_est = org.year_of_est,
         location = org.location,
+        brief_description= org.brief_description,
         personel = org.person.all(),
         pers = personal
     )
