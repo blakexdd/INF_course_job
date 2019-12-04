@@ -27,13 +27,22 @@
             <td> <b>Сотрудники: </b></td>
         <td>
         <ol>
-            {% for person in personel %}
+            {% for person in pers %}
                 <li>
                     <ul>
-                            <li>{{ person.name }}</li>
-                            <li>{{ person.surname }}</li>
-                            <li>{{ person.middlename }}</li>
-                            <li>{{ person.days }}</li>
+                            <li>{{ person.0.name }}</li>
+                            <li>{{ person.0.surname }}</li>
+                            <li>{{ person.0.middlename }}</li>
+                            <li><b>Расписание: </b></li>
+                    <ul>
+
+                            {% for day in person.1 %}
+                                <li>{{ day.day }}</li>
+                                <li>{{ day.start }}</li>
+                                <li>{{ day.end }}</li>
+                                {% endfor %}
+                    </ul>
+
                         <ul>
                         </ul>
                     </ul>

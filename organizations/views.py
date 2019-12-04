@@ -44,18 +44,18 @@ with open("package.json") as packege:
 
                 new_person.save()
 
-                # adding new person to organization
-                new_org.person.add(new_person)
-
                 # creating particular date in persons schedule
                 for day in person['days']:
                     # creatin new day of the week
-                    new_day = Dates(day=day['name'], start=day['name'], end=day['end'])
+                    new_day = Dates(day=day['name'], start=day['start'], end=day['end'])
 
                     new_day.save()
 
                     # adding new day to persons schedule
                     new_person.days.add(new_day)
+
+                 # adding new person to organization
+                new_org.person.add(new_person)
 
         else:
             # print(new_organization['name'], 'is in EXISTING organizations')
@@ -79,8 +79,6 @@ with open("package.json") as packege:
                 new_person.save()
 
                 print('New person: ', new_person)
-                # adding particular person to organization
-                Organization.objects.filter(name=new_organization['name'])[0].person.add(new_person)
 
                 # deleting old instances
                 old_days = new_person.days.all()
@@ -88,12 +86,17 @@ with open("package.json") as packege:
 
                 # creating particular date in persons schedule
                 for day in person['days']:
-                    new_day = Dates(day=day['name'], start=day['name'], end=day['end'])
+                    new_day = Dates(day=day['name'], start=day['start'], end=day['end'])
                     # saving new day
                     new_day.save()
                     print('New persons ', new_person, 'day ', new_day)
 
                     new_person.days.add(new_day)
+
+                # adding particular person to organization
+                Organization.objects.filter(name=new_organization['name'])[0].person.add(new_person)
+
+
 
 
             # adding day to persons schedule
@@ -131,15 +134,17 @@ def one_org(request, org_id):
     org = get_object_or_404(Organization, pk=org_id)
 
     # parsing schedule for personel
-    #personal_dates = []
-    #for i in range(len(org.person.all())):
-    #    personal_dates.append(org.person.all()[i].days.all())
+    personal = []
+    parsed_dates = []
+    for person in org.person.all():
+        print('Person: ', person)
+        for days in person.days.all():
+            print('Days: ', days)
+            parsed_dates.append(days)
+        personal.append([person, parsed_dates])
 
-    #print('Parsed list of dates for user: ', personal_dates)
+    print('List of persons and dates: ', personal)
 
-    print("Getting schedule of the company: ", org.person.all()[0].days.all())
-    print("Printing date: ", org.person.all()[0].days.all()[0].day)
-    #print('Getting peesons of the company: ', org.person.all())
 
     # creating dict with organization fields
     vars = dict(
@@ -147,6 +152,7 @@ def one_org(request, org_id):
         year_of_est = org.year_of_est,
         location = org.location,
         personel = org.person.all(),
+        pers = personal
     )
 
     return render(request, 'organizations/one_org.html', vars)
