@@ -30,7 +30,7 @@ class Migration(migrations.Migration):
                 ('date_of_birth', models.CharField(max_length=10)),
                 ('post', models.CharField(max_length=20)),
                 ('hours_per_week', models.IntegerField()),
-                ('days', models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, to='organizations.Dates')),
+                ('days', models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, to='organizations.Dates'))
             ],
         ),
     ]

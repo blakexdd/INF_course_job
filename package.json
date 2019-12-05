@@ -281,9 +281,9 @@
     "personel":
     [
       {
-        "surname": "Марисса",
-        "name": "Майер",
-        "middlename": "Энн",
+        "surname": "Георгий",
+        "name": "Другой",
+        "middlename": "Памкин",
         "date_of_birth": "30.03.1975",
         "post": "Исследователь",
         "hours_per_week": 45,
@@ -317,9 +317,9 @@
         ]
       },
       {
-        "surname": "Стивенс",
-        "name": "Майкл",
-        "middlename": "Айренс",
+        "surname": "Айлиш",
+        "name": "Билли",
+        "middlename": "Марчелис",
         "date_of_birth": "23.01.1986",
         "post": "Блогер",
         "hours_per_week": 41,
@@ -358,9 +358,9 @@
     "personel":
     [
       {
-        "surname": "Марисса",
-        "name": "Майер",
-        "middlename": "Энн",
+        "surname": "Чунг",
+        "name": "Виталий",
+        "middlename": "Михайлович",
         "date_of_birth": "30.03.1975",
         "post": "Исследователь",
         "hours_per_week": 45,
@@ -394,8 +394,8 @@
         ]
       },
       {
-        "surname": "Стивенс",
-        "name": "Майкл",
+        "surname": "Сергеевич",
+        "name": "Николай",
         "middlename": "Айренс",
         "date_of_birth": "23.01.1986",
         "post": "Блогер",
@@ -433,8 +433,8 @@
     "personel":
     [
       {
-        "surname": "Марисса",
-        "name": "Майер",
+        "surname": "Артемов",
+        "name": "Артем",
         "middlename": "Энн",
         "date_of_birth": "30.03.1975",
         "post": "Исследователь",
@@ -469,8 +469,8 @@
         ]
       },
       {
-        "surname": "Стивенс",
-        "name": "Майкл",
+        "surname": "Владимирович",
+        "name": "Владимир",
         "middlename": "Айси",
         "date_of_birth": "23.01.1986",
         "post": "Блогер",

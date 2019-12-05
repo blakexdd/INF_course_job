@@ -1,58 +1,30 @@
-from django.views.generic.edit import FormView
-from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
-from django.shortcuts import render, render_to_response
-from django.contrib.auth import login, logout, get_user_model
-from django.views.generic.base import View
+from django.shortcuts import render
+from django.contrib.auth import login, logout, authenticate
 from django.http import HttpResponseRedirect
-from django.contrib.auth.decorators import login_required
 import json
-import os
 from organizations.views import Organization
-from django.template import RequestContext
+from .forms import Loginform
 
-# creating register form class
-class RegisterFormView(FormView):
-    form_class = UserCreationForm
+# assigning organizations to organizations variable
+organizations = list(Organization.objects.all())
 
-    # redirecting link
-    success_url = "/login/"
+# creating list there each row
+# consists of three organizations
+list_of_three = []
+empty_org = dict(id=-1, name=0)
 
-    # template page
-    template_name = "register.html"
+# if amount of organizations that is not
+# dividable by 3, we assign zeroes to make
+# len of out list divided by 3
+if len(organizations) % 3 == 2:
+    organizations.append(empty_org)
+elif len(organizations) % 3 == 1:
+    organizations.append(empty_org)
+    organizations.append(empty_org)
 
-    def form_valid(self, form):
-        # save user if data is correct
-        form.save()
-
-        # return base class method
-        return super(RegisterFormView, self).form_valid(form)
-
-# login to account class
-class LoginFormView(FormView):
-    form_class = AuthenticationForm
-
-    template_name = 'login.html'
-
-    success_url = '/'
-
-    def form_valid(self, form):
-        self.user = form.get_user()
-
-        login(self.request, self.user)
-        return super(LoginFormView, self).form_valid(form)
-
-# exit class
-class LogoutView(View):
-    def get(self, request):
-        logout(request)
-
-        return HttpResponseRedirect('/')
-
-@login_required
-def userdashboardview(request):
-    render(request, 'personal_cab.html',
-           {'userfileslist': os.listdir(get_user_model().username)})
-
+# filling in list_of_three list
+for i in range(0, len(organizations), 3):
+    list_of_three.append([organizations[i], organizations[i + 1], organizations[i + 2]])
 
 # openning json file to read info from it
 with open('package.json', 'r') as read_file:
@@ -68,35 +40,64 @@ with open('package.json', 'r') as read_file:
     dict_index = {'organizations': organizations}
 
 
-
+# view function for start page
 def index(request):
     return render(request, 'index.html', dict_index)
 
+
+# view function for organizations page
 def org_page(request):
     return render(request, 'griddynamics.html', {})
 
+
+# view function for logout page
+def page_logout(request):
+    logout(request)
+
+    return HttpResponseRedirect('/')
+
+
+# view function for login page
+def page_login(request):
+    # initializing username and password values
+    uservalue = ''
+    passwordvalue = ''
+
+    # creating login form and assigning it to form variable
+    form = Loginform(request.POST or None)
+
+    # checking if form is valid and if yes
+    # getting username and password of user
+    # then auntificate user and redirect to main page
+    if form.is_valid():
+        # assigning username and password variables
+        uservalue = form.cleaned_data.get('username')
+        passwordvalue = form.cleaned_data.get('password')
+
+        # auntificating user
+        user = authenticate(username=uservalue, password=passwordvalue)
+
+        # if user exists redirect to main page
+        # else print error
+        if user is not None:
+            login(request, user)
+            context = {'form': form,
+                       'error': 'The login has been successful',
+                       'organizations': list_of_three}
+
+            return render(request, 'index.html', context)
+        else:
+            context = {'form': form,
+                       'error': 'The username and password combination is incorrect'}
+
+            return render(request, 'login.html', context)
+    else:
+        context = {'form': form}
+        return render(request, 'login.html', context)
+
+
 # view function for home page
 def home(request):
-    # assigning organizations to organizations variable
-    organizations = list(Organization.objects.all())
-
-    # creating list there each row
-    # consists of three organizations
-    list_of_three = []
-    empty_org =  dict(id = -1, name = 0)
-
-    # if amount of organizations that is not
-    # dividable by 3, we assign zeroes to make
-    # len of out list divided by 3
-    if len(organizations) % 3 == 2:
-        organizations.append(empty_org)
-    elif len(organizations) % 3 == 1:
-        organizations.append(empty_org)
-        organizations.append(empty_org)
-
-    # filling in list_of_three list
-    for i in range(0, len(organizations), 3):
-        list_of_three.append([organizations[i], organizations[i + 1], organizations[i + 2]])
 
     # creating dict to give it
     # as third parameter to

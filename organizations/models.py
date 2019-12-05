@@ -3,6 +3,7 @@ from django.contrib import admin
 from django.contrib.auth.models import User
 # Create your models here.
 
+
 # creating dates model
 class Dates(models.Model):
     # creating day of the week
@@ -16,6 +17,7 @@ class Dates(models.Model):
 
 # creating persens model
 class Person(models.Model):
+
     # creating name of the person
     name = models.CharField(max_length=20)
 
@@ -37,7 +39,6 @@ class Person(models.Model):
     # creating days of work
     #days = models.ForeignKey('Dates', on_delete=models.SET_NULL, null=True)
     days = models.ManyToManyField(Dates)
-
 
 # creating organization model
 class Organization(models.Model):

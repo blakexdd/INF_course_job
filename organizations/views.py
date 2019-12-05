@@ -1,7 +1,10 @@
 from django.shortcuts import get_object_or_404, render
 from .models import Organization
 from .models import Dates, Person
+from django.contrib.auth.models import User
 import json
+
+new_id = 0
 
 # creating organizations from json file
 with open("package.json") as packege:
@@ -18,6 +21,7 @@ with open("package.json") as packege:
         existing_orgs_names.append(existing_org.name)
 
     print(existing_orgs_names)
+
 
     # going through all organizations in
     # json data base and checking if we updated
@@ -46,7 +50,24 @@ with open("package.json") as packege:
                 new_person = Person(name=person['name'], surname=person['surname'], middlename=person['middlename'],
                                     date_of_birth=person['date_of_birth'], post=person['post'], hours_per_week=person['hours_per_week'])
 
+                # saving new person
                 new_person.save()
+
+                # deleting old user
+                old_user = \
+                    User.objects.filter(username=''.join([person['name'], person['surname'], person['middlename']]))[0]
+                old_user.delete()
+                # creating user with save id as person has
+                new_user = User.objects.create_user(
+                    username=''.join([person['name'], person['surname'], person['middlename']]),
+                    id=new_person.id)
+                print('New user: ', new_user)
+                print("New users name: ", new_user.id)
+
+                print('New person: ', new_person)
+
+                # saving new user
+                new_user.save()
 
                 # creating particular date in persons schedule
                 for day in person['days']:
@@ -80,15 +101,31 @@ with open("package.json") as packege:
             old_personel = Organization.objects.filter(name=new_organization['name'])[0].person.all()
             old_personel.delete()
 
+
             # creating particular person in the company from the database
             for person in new_organization['personel']:
                 new_person = Person(name=person['name'], surname=person['surname'], middlename=person['middlename'],
                                     date_of_birth=person['date_of_birth'], post=person['post'],
                                     hours_per_week=person['hours_per_week'])
 
+                # saving new person
                 new_person.save()
 
+                # deleting old user
+                old_user = \
+                User.objects.filter(username=''.join([person['name'], person['surname'], person['middlename']]))[0]
+                old_user.delete()
+                # creating user with save id as person has
+                new_user = User.objects.create_user(username=''.join([person['name'], person['surname'], person['middlename']]),
+                                                    id=new_person.id, password=1234)
+                print('New user: ', new_user)
+                print("New users name: ", new_user.id)
+
                 print('New person: ', new_person)
+
+                # saving new user
+                new_user.save()
+
 
                 # deleting old instances
                 old_days = new_person.days.all()

@@ -36,7 +36,21 @@
 {% endblock %}
 
 {% block main_bar_text %}
-<div class="main_bar_text">Организации</div>
+    {% if user.is_authenticated %}
+
+        <div style="position: absolute; left: 30vw; top: 7vw;
+        font-size: 2vw; font-family: 'Times New Roman', sans-serif;
+        font-style: italic; color:white">
+            Организаии
+        </div>
+        <div style="position: absolute; left: 56vw; top: 7vw;
+        font-size: 2vw; font-family: 'Times New Roman', sans-serif;
+        font-style: italic; color:gray">
+            Личный кабинет
+        </div>
+    {% else %}
+    <div class="main_bar_text">Организации</div>
+    {% endif %}
 {% endblock %}
 
 {% block content %}
