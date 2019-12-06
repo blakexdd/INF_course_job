@@ -40,6 +40,9 @@ class Person(models.Model):
     #days = models.ForeignKey('Dates', on_delete=models.SET_NULL, null=True)
     days = models.ManyToManyField(Dates)
 
+    # creating name of organization person works in
+    #working_organization = models.CharField(max_length=20)
+
 # creating organization model
 class Organization(models.Model):
     # creating name of organization

@@ -7,7 +7,7 @@
 </head>
 <body>
 {% block find_text %}
-<div class="find_text">Информация об организации</div>
+<div class="find_text">Информация об организации:</div>
 {% endblock %}
 {% block content %}
     <div id="organizations-1">
@@ -21,11 +21,18 @@
         </tr>
         <br>
         <tr>
-            <td> <b>Адрес: </b>{{ location }}</td>
+            <td> <b>Адрес: </b>
+                <div style="margin-right: 20vw; text-align: justify-all">
+                {{ location }}
+                </div>
+            </td>
         </tr>
         <br>
         <tr>
-            <b>Краткое описание:</b>{{ brief_description }}
+            <b>Краткое описание:</b>
+            <div style="margin-right: 20vw; text-align: justify-all">
+            {{ brief_description }}
+            </div>
         </tr>
         <br>
         <tr>
@@ -33,28 +40,21 @@
         <td>
         <ol>
             {% for person in pers %}
-                <li>
-                    <ul>
-                            <li>{{ person.0.name }}</li>
-                            <li>{{ person.0.surname }}</li>
-                            <li>{{ person.0.middlename }}</li>
-                            <li>{{ person.0.date_of_birth }}</li>
-                            <li>{{ person.0.post }}</li>
-                            <li>{{ person.0.hours_per_week }}</li>
-                            <li><b>Расписание: </b></li>
-                    <ul>
-
+                            <li>Имя: {{ person.0.name }}<br>
+                            Фамилия: {{ person.0.surname }}<br>
+                            Отчество: {{ person.0.middlename }}<br>
+                            Дата рождения: {{ person.0.date_of_birth }}<br>
+                            Должность: {{ person.0.post }}<br>
+                            Количество часов в неделю: {{ person.0.hours_per_week }}<br>
+                            </li>
+                            <b>Расписание: </b>
+                <ol>
                             {% for day in person.1 %}
-                                <li>{{ day.day }}</li>
-                                <li>{{ day.start }}</li>
-                                <li>{{ day.end }}</li>
+                                <li>{{ day.day }}<br>
+                                    Начало: {{ day.start }}<br>
+                                    Конец: {{ day.end }}</li>
                                 {% endfor %}
-                    </ul>
-
-                        <ul>
-                        </ul>
-                    </ul>
-                </li>
+                </ol>
             {% endfor %}
         </ol>
         </td>

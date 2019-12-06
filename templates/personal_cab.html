@@ -6,14 +6,24 @@
     <title>Линый кабинет</title>
 </head>
 <body>
+{% block find_text%}
+{% endblock %}
 {% block content %}
-    <div id="organizations-1">
+    <div class="find_text">
     <ul>
         <li><b>Имя: </b>{{ person.name }}</li>
         <li><b>Фамилия: </b>{{ person.surname }}</li>
         <li><b>Отчество: </b>{{ person.middlename }}</li>
         <li><b>Дата рождения: </b>{{ person.date_of_birth }}</li>
-        <li><b>Дни работы: </b>{{ person.days }}</li>
+        <li><b>Расписание работы: </b>
+        <ol>
+            {% for day in days %}
+                <li>{{ day.day }}<br>
+                Начало: {{ day.start }}<br>
+                Конец: {{ day.end }}</li>
+            {% endfor %}
+        </ol>
+        </li>
     </ul>
     </div>
 {% endblock %}

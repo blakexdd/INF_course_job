@@ -180,14 +180,18 @@ def pers_cabinet(request, user_id):
     # assigning current user to user variable
     user = request.user
 
-    # getting user from database
+    days_of_person = []
+
+    # getting user and his dates from database
     for organization in Organization.objects.all():
         for person in organization.person.all():
             if user.id == person.id:
                 new_user = person
+                for days in person.days.all():
+                    days_of_person.append(days)
 
 
-    return render(request, 'personal_cab.html', {'person': new_user})
+    return render(request, 'personal_cab.html', {'person': new_user, 'days': days_of_person})
 
 
 # view function for particular organization
