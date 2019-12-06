@@ -45,11 +45,6 @@ def index(request):
     return render(request, 'index.html', dict_index)
 
 
-# view function for organizations page
-def org_page(request):
-    return render(request, 'griddynamics.html', {})
-
-
 # view function for logout page
 def page_logout(request):
     logout(request)

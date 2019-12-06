@@ -5,5 +5,6 @@ app_name = 'orgs'
 
 urlpatterns = [
     url('^$', views.orgs, name='orgs'),
-    url(r'^(?P<org_id>\d+)/$', views.one_org, name='one_org'),
+    url(r'^(?P<user_id>\d)+/$', views.pers_cabinet, name='pers_cabinet'),
 ]
+

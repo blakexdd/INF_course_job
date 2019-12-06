@@ -41,12 +41,14 @@
         <div style="position: absolute; left: 30vw; top: 7vw;
         font-size: 2vw; font-family: 'Times New Roman', sans-serif;
         font-style: italic; color:white">
+        <a href="/">
             Организаии
+        </a>
         </div>
         <div style="position: absolute; left: 56vw; top: 7vw;
         font-size: 2vw; font-family: 'Times New Roman', sans-serif;
         font-style: italic; color:gray">
-            Личный кабинет
+            <a href="{% url 'users:pers_cabinet' user.id %}">Личный кабинет</a>
         </div>
     {% else %}
     <div class="main_bar_text">Организации</div>

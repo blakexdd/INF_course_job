@@ -175,6 +175,21 @@ def orgs(request):
     return render(request, 'organizations/organizations.html',
                               {'organizations': orgs})
 
+# view function for personal cabinet
+def pers_cabinet(request, user_id):
+    # assigning current user to user variable
+    user = request.user
+
+    # getting user from database
+    for organization in Organization.objects.all():
+        for person in organization.person.all():
+            if user.id == person.id:
+                new_user = person
+
+
+    return render(request, 'personal_cab.html', {'person': new_user})
+
+
 # view function for particular organization
 def one_org(request, org_id):
     # assigning Organization object to org variable

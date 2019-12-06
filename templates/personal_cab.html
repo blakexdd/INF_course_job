@@ -1,9 +1,21 @@
 <!DOCTYPE html>
+{% extends 'index.html' %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Линый кабинет</title>
 </head>
 <body>
+{% block content %}
+    <div id="organizations-1">
+    <ul>
+        <li><b>Имя: </b>{{ person.name }}</li>
+        <li><b>Фамилия: </b>{{ person.surname }}</li>
+        <li><b>Отчество: </b>{{ person.middlename }}</li>
+        <li><b>Дата рождения: </b>{{ person.date_of_birth }}</li>
+        <li><b>Дни работы: </b>{{ person.days }}</li>
+    </ul>
+    </div>
+{% endblock %}
 </body>
 </html>

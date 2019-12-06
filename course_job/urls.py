@@ -25,5 +25,6 @@ urlpatterns = [
     url('^$', views.home, name='index'),
     url(r'^login/$', views.page_login, name='login'),
     url(r'^logout/$', views.page_logout, name='logout'),
-    url(r'^organizations/', include('organizations.urls', namespace='orgs'))
+    url(r'^organizations/', include('organizations.urls', namespace='orgs')),
+    url(r'^users/', include('users.urls', namespace='users'))
 ]
