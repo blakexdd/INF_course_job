@@ -26,5 +26,10 @@ urlpatterns = [
     url(r'^login/$', views.page_login, name='login'),
     url(r'^logout/$', views.page_logout, name='logout'),
     url(r'^organizations/', include('organizations.urls', namespace='orgs')),
-    url(r'^users/', include('users.urls', namespace='users'))
+    url(r'^users/', include('users.urls', namespace='users')),
+    url(r'^edit_org$', views.create_organizations, name='create_organization'),
+    url(r'^edit_pers$', views.create_person, name='create_person'),
+    url(r'^edit_days$', views.creating_day, name='create_day'),
+    url(r'^delete$', views.delete_organization, name='delete_organization'),
+    url(r'^org_edit$', views.edit_organization, name='edit_organization')
 ]

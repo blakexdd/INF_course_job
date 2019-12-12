@@ -12,15 +12,58 @@
 <body>
 
 <style type="text/css">
-   .organization {
+    .delete_button
+    {
+        position:relative;
+        right: -7vw;
+        top:-8vw;
+    }
+
+    .delete_button_left
+    {
+        position: relative;
+        right: -11vw;
+        top:-8vw;
+    }
+
+    .edit_button_left
+    {
+        position: relative;
+        right: -7vw;
+        top: -12vw;
+    }
+
+    .edit_button
+    {
+        position: relative;
+        right: -11vw;
+        top:-12vw;
+    }
+
+
+   .organization
+   {
        display: table;
-    left: 20vw;
-    top: 15vw;
-    font-size: 3vw;
-    font-family: "Times New Roman", sans-serif;
-    font-style: italic;
-    color: blue;
+        left: 20vw;
+        top: 15vw;
+        font-size: 3vw;
+        font-family: "Times New Roman", sans-serif;
+        font-style: italic;
+        color: blue;
+
    }
+
+    .wrapper
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .buttons img
+    {
+        height: 100%;
+        width: auto;
+    }
 </style>
 
 {% block header_rect %}
@@ -32,7 +75,9 @@
 {% endblock %}
 
 {% block find_text %}
-<div class="find_text">Поиск организации:</div>
+<div class="find_text">
+    Поиск организации:
+</div>
 {% endblock %}
 
 {% block main_bar_text %}
@@ -56,6 +101,15 @@
 {% endblock %}
 
 {% block content %}
+    {% if user.is_superuser %}
+        <a href="edit_org">
+        <div class="wrapper buttons">
+            <div style="position: absolute; right: 20vw; top: 10vw">
+                 <img src="../static/images/add3.png" alt="add button">
+            </div>
+        </div>
+        </a>
+    {% endif %}
     <div class="organization">
     <table>
     {% for org in organizations %}
@@ -65,6 +119,18 @@
                 <a href="{% url 'orgs:one_org' org.0.id %}">
                     {{ org.0.name }}
                 </a>
+                {% if user.is_superuser %}
+                        <div class="wrapper buttons delete_button_left">
+                          <a href="{% url "delete_organization" %}?name={{ org.0.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                          </a>
+                        </div>
+                    <div class="wrapper buttons edit_button_left">
+                        <a href="{% url "edit_organization" %}?id={{ org.0.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
             </td>
              </tr>
         {% elif org.2.id == -1 %}
@@ -73,11 +139,35 @@
                 <a href="{% url 'orgs:one_org' org.0.id %}">
                     {{ org.0.name }}
                 </a>
+                {% if user.is_superuser %}
+                <div class="wrapper buttons delete_button_left">
+                  <a href="{% url "delete_organization" %}?name={{ org.0.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                  </a>
+                </div>
+                    <div class="wrapper buttons edit_button_left">
+                        <a href="{% url "edit_organization" %}?id={{ org.0.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
             </td>
             <td>
                 <a href="{% url 'orgs:one_org' org.1.id %}">
                     {{ org.1.name }}
                 </a>
+                {% if user.is_superuser %}
+                <div class="wrapper buttons delete_button">
+                  <a href="{% url "delete_organization" %}?name={{ org.1.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                  </a>
+                </div>
+                    <div class="wrapper buttons edit_button">
+                        <a href="{% url "edit_organization" %}?id={{ org.1.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
             </td>
             </tr>
         {% else %}
@@ -86,16 +176,52 @@
                 <a href="{% url 'orgs:one_org' org.0.id %}">
                     {{ org.0.name }}
                 </a>
+                {% if user.is_superuser %}
+                <div class="wrapper buttons delete_button_left">
+                  <a href="{% url "delete_organization" %}?name={{ org.0.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                  </a>
+                </div>
+                    <div class="wrapper buttons edit_button_left">
+                        <a href="{% url "edit_organization" %}?id={{ org.0.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
             </td>
             <td>
                 <a href="{% url 'orgs:one_org' org.1.id %}">
                     {{ org.1.name }}
                 </a>
+                {% if user.is_superuser %}
+                <div class="wrapper buttons delete_button">
+                  <a href="{% url "delete_organization" %}?name={{ org.1.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                  </a>
+                </div>
+                    <div class="wrapper buttons edit_button">
+                        <a href="{% url "edit_organization" %}?id={{ org.1.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
             </td>
             <td>
                 <a href="{% url 'orgs:one_org' org.2.id %}">
                     {{ org.2.name }}
                 </a>
+                {% if user.is_superuser %}
+                <div class="wrapper buttons delete_button">
+                    <a href="{% url "delete_organization" %}?name={{ org.2.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                    </a>
+                </div>
+                    <div class="wrapper buttons edit_button">
+                        <a href="{% url "edit_organization" %}?id={{ org.2.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
             </td>
         </tr>
         {% endif %}

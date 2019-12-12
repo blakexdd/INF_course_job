@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="">
+    <div style="position: absolute; top:7vw">
+        {% csrf_token %}
+                <b>День: </b><br><br>
+                День: {{ days_form.day }}<br><br>
+                Начало: {{ days_form.start }}<br><br>
+                Конец: {{ days_form.end }}<br><br>
+        <input type="submit" value="Создать" />
+    </div>
+</form>
+</body>
+</html>
