@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+{% extends 'index.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .buttons img
+    {
+        height: 100%;
+        width: auto;
+    }
+
+    </style>
+</head>
+<body>
+{% block find_text %}
+<div class="find_text">Информация об организации:</div>
+{% endblock %}
+{% block content %}
+    {% if user.is_superuser %}
+        <div style="position: absolute; right: 20vw; top: 40vw">
+            <div class="wrapper buttons">
+                    <a href="{% url 'create_person'%}?name={{ name }}">
+                         <img src="../../static/images/add3.png" alt="add button">
+                    </a>
+            </div>
+        </div>
+    {% endif %}
+    <div id="organizations-1">
+    <talbe>
+        <tr>
+            <td><b>Название: </b>{{ name }}</td>
+        </tr>
+        <br>
+        <tr>
+            <td> <b>Дата основания:</b> {{ year_of_est }}</td>
+        </tr>
+        <br>
+        <tr>
+            <td> <b>Адрес: </b>
+                <div style="margin-right: 20vw;text-align: justify">
+                {{ location }}
+                </div>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <b>Краткое описание:</b>
+            <div style="margin-right: 20vw; text-align: justify-all">
+            {{ brief_description }}
+            </div>
+        </tr>
+        <br>
+        <tr>
+            <td> <b>Сотрудники: </b></td>
+        <td>
+        <ol>
+            {% for person in pers %}
+                            <li>Имя: {{ person.0.name }}<br>
+                            Фамилия: {{ person.0.surname }}<br>
+                            Отчество: {{ person.0.middlename }}<br>
+                            Дата рождения: {{ person.0.date_of_birth }}<br>
+                            Должность: {{ person.0.post }}<br>
+                            Количество часов в неделю: {{ person.0.hours_per_week }}<br>
+                            </li>
+                            <b>Расписание: </b>
+                {% if user.is_superuser %}
+                            <div style="position: relative; right: -53vw; top: -4vw">
+            <div class="wrapper buttons">
+                    <a href="{% url 'create_day'%}?id={{ person.0.id }}">
+                         <img src="../../static/images/add3.png" alt="add button">
+                    </a>
+            </div>
+        </div>
+                {% endif %}
+                <ol>
+                            {% for day in person.1 %}
+                                <li>{{ day.day }}<br>
+                                    Начало: {{ day.start }}<br>
+                                    Конец: {{ day.end }}</li>
+                                {% endfor %}
+                </ol>
+            {% endfor %}
+        </ol>
+        </td>
+        </tr>
+    </talbe>
+    </div>
+{% endblock %}
+</body>
+</html>

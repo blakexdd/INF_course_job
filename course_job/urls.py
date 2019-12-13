@@ -18,10 +18,19 @@ from django.urls import path
 from course_job import views
 from django.conf.urls import include, url
 
+admin.autodiscover()
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url('^$', views.index, name='index'),
-    url(r'^register/$', views.RegisterFormView.as_view()),
-    url(r'^login/$', views.LoginFormView.as_view()),
-    url(r'^logout/$', views.LogoutView.as_view()),
+    url('^$', views.home, name='index'),
+    url(r'^login/$', views.page_login, name='login'),
+    url(r'^logout/$', views.page_logout, name='logout'),
+    url(r'^organizations/', include('organizations.urls', namespace='orgs')),
+    url(r'^users/', include('users.urls', namespace='users')),
+    url(r'^create_org$', views.create_organizations, name='create_organization'),
+    url(r'^create_person$', views.create_person, name='create_person'),
+    url(r'^edit_pers$', views.create_person, name='create_person'),
+    url(r'^edit_days$', views.creating_day, name='create_day'),
+    url(r'^delete$', views.delete_organization, name='delete_organization'),
+    url(r'^org_edit$', views.edit_organization, name='edit_organization')
 ]

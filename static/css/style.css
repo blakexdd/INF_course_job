@@ -1,24 +1,67 @@
 body {
  background-color: #000;
  background-image: url("../images/pages_bg.png");
+    height: 100vw;
+}
+
+html
+{
+    height: 100vw;
+}
+
+table
+{
+    position: absolute;
+    left: 20vw;
+    top: 15vw;
+    right: 20vw;
+    font-size: 1.5vw;
+    border-spacing: 10px;
+    border-collapse: separate;
+    margin: -10px;
+    text-align: center;
+}
+
+td {
+    padding: 6.6vw;
+    border: 1px solid;
+    background: lightgray;
+}
+
+#organizations-1
+{
+    position: absolute;
+    left: 20vw;
+    top: 13vw;
+    font-size: 3vw;
+    font-family: "Times New Roman", sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+#organizations_rectangles
+{
+    position: absolute;
+    width: 30vw;
+    height: 3vw;
 }
 
 #rectangle
 {
+    position: absolute;
     width: 60vw;
     height: 2.5vw;
-    position: fixed;
-    top: 50px;
+    top: 7vw;
     left: 20vw;
     background: lightgray;
 }
 
 .header_text
 {
-    position: fixed;
+    position: absolute;
     left: 20vw;
-    top: 8px;
-    font-size: 30px;
+    top: 2vw;
+    font-size: 3vw;
     font-family: "Times New Roman", sans-serif;
     font-style: italic;
     color: black;
@@ -26,10 +69,10 @@ body {
 
 .find_text
 {
-    position: fixed;
+    position: absolute;
     left: 20vw;
-    top: 90px;
-    font-size: 30px;
+    top: 10vw;
+    font-size: 3vw;
     font-family: "Times New Roman", sans-serif;
     font-style: italic;
     color: black;
@@ -37,10 +80,10 @@ body {
 
 .main_bar_text
 {
-    position: fixed;
+    position: absolute;
     left: 45vw;
-    top: 55px;
-    font-size: 20px;
+    top: 7vw;
+    font-size: 2vw;
     font-family: "Times New Roman", sans-serif;
     font-style: italic;
     color: white;

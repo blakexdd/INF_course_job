@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="">
+    <div style="position: absolute; top:7vw">
+        {% csrf_token %}
+                <b>Организация: </b><br><br>
+                Название: {{ organization_form.name }}<br><br>
+                Год основания: {{ organization_form.year_of_est }}<br><br>
+                Местоположение: {{ organization_form.location }}<br><br>
+                Краткое описание: {{ organization_form.brief_description }}<br><br>
+        <input type="submit" value="Изменить" /><br><br>
+        {% if error %}
+            {{ error }}
+        {% endif %}
+    </div>
+</form>
+</body>
+</html>

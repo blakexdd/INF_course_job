@@ -1,12 +1,31 @@
 <!DOCTYPE html>
+{% extends 'index.html' %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Линый кабинет</title>
 </head>
 <body>
-{% for filename in userfileslist %}
-<img scr="{{ filename }}">
-{% endfor %}
+{% block find_text%}
+{% endblock %}
+{% block content %}
+    <div class="find_text">
+    <ul>
+        <li><b>Имя: </b>{{ person.name }}</li>
+        <li><b>Фамилия: </b>{{ person.surname }}</li>
+        <li><b>Отчество: </b>{{ person.middlename }}</li>
+        <li><b>Дата рождения: </b>{{ person.date_of_birth }}</li>
+        <li><b>Расписание работы: </b>
+        <ol>
+            {% for day in days %}
+                <li>{{ day.day }}<br>
+                Начало: {{ day.start }}<br>
+                Конец: {{ day.end }}</li>
+            {% endfor %}
+        </ol>
+        </li>
+    </ul>
+    </div>
+{% endblock %}
 </body>
 </html>

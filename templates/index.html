@@ -1,18 +1,235 @@
 <!DOCTYPE html>
 {%  load staticfiles %}
+{% load i18n %}
 <html lang="en">
 <head>
+    {% block meta %}
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{%  static "css/style.css" %}" />
+    <link rel="stylesheet" media="all" type="text/css" href="{%  static "css/style.css" %}" />
+    {% endblock %}
     <title>Main page</title>
 </head>
 <body>
+
+<style type="text/css">
+
+    .delete_button
+    {
+        position:relative;
+        right: -7vw;
+        top:-8vw;
+    }
+
+    .delete_button_left
+    {
+        position: relative;
+        right: -11vw;
+        top:-8vw;
+    }
+
+    .edit_button_left
+    {
+        position: relative;
+        right: -7vw;
+        top: -12vw;
+    }
+
+    .edit_button
+    {
+        position: relative;
+        right: -11vw;
+        top:-12vw;
+    }
+
+
+   .organization
+   {
+        font-size: 3vw;
+        font-family: "Times New Roman", sans-serif;
+        font-style: italic;
+        color: blue;
+   }
+
+    .wrapper
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .buttons img
+    {
+        height: 100%;
+        width: auto;
+    }
+</style>
+
+{% block header_rect %}
 <div id="rectangle"></div>
+{% endblock %}
+
+{% block header_text %}
 <div class="header_text">Расписание для организаций</div>
-<div class="find_text">Поиск организации:</div>
-<div class="main_bar_text">Организации</div>
-{%  for org in organizations %}
-{% endfor %}
+{% endblock %}
+
+{% block find_text %}
+<div class="find_text">
+    Поиск организации:
+</div>
+{% endblock %}
+
+{% block main_bar_text %}
+    {% if user.is_authenticated %}
+
+        <div style="position: absolute; left: 30vw; top: 7vw;
+        font-size: 2vw; font-family: 'Times New Roman', sans-serif;
+        font-style: italic; color:white">
+        <a href="/">
+            Организаии
+        </a>
+        </div>
+        <div style="position: absolute; left: 56vw; top: 7vw;
+        font-size: 2vw; font-family: 'Times New Roman', sans-serif;
+        font-style: italic; color:gray">
+            <a href="{% url 'users:pers_cabinet' user.id %}">Личный кабинет</a>
+        </div>
+    {% else %}
+    <div class="main_bar_text">Организации</div>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    {% if user.is_superuser %}
+        <a href="create_org">
+        <div class="wrapper buttons">
+            <div style="position: absolute; right: 20vw; top: 10vw">
+                 <img src="../static/images/add3.png" alt="add button">
+            </div>
+        </div>
+        </a>
+    {% endif %}
+    <div class="organization">
+    <table>
+    {% for org in organizations %}
+        {% if org.1.id == -1 %}
+             <tr>
+            <td>
+                <a href="{% url 'orgs:one_org' org.0.id %}">
+                    {{ org.0.name }}
+                </a>
+                {% if user.is_superuser %}
+                        <div class="wrapper buttons delete_button_left">
+                          <a href="{% url "delete_organization" %}?name={{ org.0.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                          </a>
+                        </div>
+                    <div class="wrapper buttons edit_button_left">
+                        <a href="{% url "edit_organization" %}?id={{ org.0.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
+            </td>
+             </tr>
+        {% elif org.2.id == -1 %}
+            <tr>
+            <td>
+                <a href="{% url 'orgs:one_org' org.0.id %}">
+                    {{ org.0.name }}
+                </a>
+                {% if user.is_superuser %}
+                <div class="wrapper buttons delete_button_left">
+                  <a href="{% url "delete_organization" %}?name={{ org.0.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                  </a>
+                </div>
+                    <div class="wrapper buttons edit_button_left">
+                        <a href="{% url "edit_organization" %}?id={{ org.0.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
+            </td>
+            <td>
+                <a href="{% url 'orgs:one_org' org.1.id %}">
+                    {{ org.1.name }}
+                </a>
+                {% if user.is_superuser %}
+                <div class="wrapper buttons delete_button">
+                  <a href="{% url "delete_organization" %}?name={{ org.1.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                  </a>
+                </div>
+                    <div class="wrapper buttons edit_button">
+                        <a href="{% url "edit_organization" %}?id={{ org.1.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
+            </td>
+            </tr>
+        {% else %}
+        <tr>
+            <td>
+                <a href="{% url 'orgs:one_org' org.0.id %}">
+                    {{ org.0.name }}
+                </a>
+                {% if user.is_superuser %}
+                <div class="wrapper buttons delete_button_left">
+                  <a href="{% url "delete_organization" %}?name={{ org.0.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                  </a>
+                </div>
+                    <div class="wrapper buttons edit_button_left">
+                        <a href="{% url "edit_organization" %}?id={{ org.0.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
+            </td>
+            <td>
+                <a href="{% url 'orgs:one_org' org.1.id %}">
+                    {{ org.1.name }}
+                </a>
+                {% if user.is_superuser %}
+                <div class="wrapper buttons delete_button">
+                  <a href="{% url "delete_organization" %}?name={{ org.1.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                  </a>
+                </div>
+                    <div class="wrapper buttons edit_button">
+                        <a href="{% url "edit_organization" %}?id={{ org.1.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
+            </td>
+            <td>
+                <a href="{% url 'orgs:one_org' org.2.id %}">
+                    {{ org.2.name }}
+                </a>
+                {% if user.is_superuser %}
+                <div class="wrapper buttons delete_button">
+                    <a href="{% url "delete_organization" %}?name={{ org.2.name }}">
+                            <img src="../static/images/delete.png" alt="delete button">
+                    </a>
+                </div>
+                    <div class="wrapper buttons edit_button">
+                        <a href="{% url "edit_organization" %}?id={{ org.2.id }}">
+                            <img src="../static/images/edit.png" alt="edit button">
+                        </a>
+                    </div>
+                {% endif %}
+            </td>
+        </tr>
+        {% endif %}
+    {% endfor %}
+    </table>
+    </div>
+{% endblock %}
+
+
+{% block auth %}
+<div style="width:100%; height:1px; clear:both;"></div>
     {% if user.is_authenticated %}
       Привет, {{ user.username }}!
       <br>
@@ -22,5 +239,12 @@
       <br>
       <a href="/register">Регистрация</a>
     {% endif %}
+{% endblock %}
+
+{% block footer %}
+<footer>
+Site by Vladimir Gololobov
+</footer>
+{% endblock %}
 </body>
 </html>
