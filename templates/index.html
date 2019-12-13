@@ -12,6 +12,7 @@
 <body>
 
 <style type="text/css">
+
     .delete_button
     {
         position:relative;
@@ -43,14 +44,10 @@
 
    .organization
    {
-       display: table;
-        left: 20vw;
-        top: 15vw;
         font-size: 3vw;
         font-family: "Times New Roman", sans-serif;
         font-style: italic;
         color: blue;
-
    }
 
     .wrapper
@@ -102,7 +99,7 @@
 
 {% block content %}
     {% if user.is_superuser %}
-        <a href="edit_org">
+        <a href="create_org">
         <div class="wrapper buttons">
             <div style="position: absolute; right: 20vw; top: 10vw">
                  <img src="../static/images/add3.png" alt="add button">

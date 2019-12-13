@@ -208,7 +208,7 @@ def updating_organizations():
             #print('person1: ', person1.name, ' ', person1.surname, ' ', person1.days.all()[0].day, person1.days.all()[1].day )
 
 
-updating_organizations()
+#updating_organizations()
 
 # view function for organizations
 def orgs(request):

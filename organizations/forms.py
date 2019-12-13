@@ -11,7 +11,7 @@ class Editing_Person(ModelForm):
     class Meta:
         model = Person
         fields = ['name', 'surname', 'middlename',
-                  'date_of_birth', 'post']
+                  'date_of_birth', 'post', 'hours_per_week']
 
 class Editing_Days(ModelForm):
     class Meta:

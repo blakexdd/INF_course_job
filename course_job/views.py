@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.contrib.auth import login, logout, authenticate
 from django.http import HttpResponseRedirect
 import json
-from organizations.views import Organization
+from organizations.views import Organization, Person, Dates
 from .forms import Loginform
 from organizations.forms import Editing_Organization, Editing_Person, Editing_Days
 from organizations.views import updating_organizations
@@ -33,18 +33,18 @@ def update_list_of_three():
     for i in range(0, len(organizations), 3):
         list_of_three.append([organizations[i], organizations[i + 1], organizations[i + 2]])
 
-    # openning json file to read info from it
-    with open('package.json', 'r') as read_file:
-        # load data from json file to data variable
-        data = json.load(read_file)
-
-        # assigning data from data to organizations variable
-        organizations = data['organizations']
-
-        # forming dictionary of parameters to give
-        # it as a third argument to render function
-        # for index page
-        dict_index = {'organizations': organizations}
+    # # openning json file to read info from it
+    # with open('package.json', 'r') as read_file:
+    #     # load data from json file to data variable
+    #     data = json.load(read_file)
+    #
+    #     # assigning data from data to organizations variable
+    #     organizations = data['organizations']
+    #
+    #     # forming dictionary of parameters to give
+    #     # it as a third argument to render function
+    #     # for index page
+    #     dict_index = {'organizations': organizations}
 
 update_list_of_three()
 
@@ -111,60 +111,69 @@ def create_organizations(request):
         organization_name = organization_form.cleaned_data.get('name')
         organization_year_of_est = organization_form.cleaned_data.get('year_of_est')
         organization_location = organization_form.cleaned_data.get('location')
-        organization_new_location = organization_location.split(',')
-        organziation_index = organization_new_location[0]
-        organization_city = organization_new_location[1]
-        organization_adress = organization_new_location[2]
         organization_brief_description = organization_form.cleaned_data.get('brief_description')
 
         # forming organization dictionary
-        new_organization = dict(name=organization_name,
-                                year_of_establishing=organization_year_of_est,
-                                location=dict(index=organziation_index,
-                                              city=organization_city,
-                                              adress=organization_adress),
-                                brief_decription=organization_brief_description)
+        # new_organization = dict(name=organization_name,
+        #                         year_of_establishing=organization_year_of_est,
+        #                         location=dict(index=organziation_index,
+        #                                       city=organization_city,
+        #                                       adress=organization_adress),
+        #                         brief_decription=organization_brief_description)
 
-        # opening json file to add there information about new organization
-        with open('package.json', 'r') as read_file:
-            # load data from json file to data variable
-            data = json.load(read_file)
+        if Organization.objects.filter(name=organization_name):
+            error = 'Огранизация уже существует'
+        else:
+            new_org = Organization(name=organization_name,
+                                   year_of_est=organization_year_of_est,
+                                   location=organization_location,
+                                   brief_description=organization_brief_description)
+            new_org.save()
+            print(new_org)
 
-            # assigning data from data to organizations variable
-            organizations = data['organizations']
+    list_of_three.clear()
+    update_list_of_three()
 
-            # initializing flag if organization exists
-            flag = 0
+        # # opening json file to add there information about new organization
+        # with open('package.json', 'r') as read_file:
+        #     # load data from json file to data variable
+        #     data = json.load(read_file)
+        #
+        #     # assigning data from data to organizations variable
+        #     organizations = data['organizations']
+        #
+        #     # initializing flag if organization exists
+        #     flag = 0
+        #
+        #     # going through organizations and finding created organization in list
+        #     for i in range(len(organizations)):
+        #         if organizations[i]['name'] == organization_name:
+        #             flag = i
+        #
+        #     if flag == 0:
+        #         organizations.append(new_organization)
+        #     else:
+        #         error = 'Organization already exists'
+        #
+        # #forming dictionary to load in json
+        # org = dict(organizations=organizations)
+        #
+        # # oppening json file and adding information to it
+        # with open('package.json', 'w') as write_file:
+        #     json.dump(org, write_file)
+        #     #print('Organization[-1]:', organizations[-1])
+        #
+        #     #print('==================================')
+        #     #print(organizations)
+        #
+        # #print(new_organization)
+        #
+        # updating_organizations()
+        # list_of_three.clear()
+        # update_list_of_three()
 
-            # going through organizations and finding created organization in list
-            for i in range(len(organizations)):
-                if organizations[i]['name'] == organization_name:
-                    flag = i
 
-            if flag == 0:
-                organizations.append(new_organization)
-            else:
-                error = 'Organization already exists'
-
-        #forming dictionary to load in json
-        org = dict(organizations=organizations)
-
-        # oppening json file and adding information to it
-        with open('package.json', 'w') as write_file:
-            json.dump(org, write_file)
-            #print('Organization[-1]:', organizations[-1])
-
-            #print('==================================')
-            #print(organizations)
-
-        #print(new_organization)
-
-        updating_organizations()
-        list_of_three.clear()
-        update_list_of_three()
-
-
-    return render(request, 'creating_organization.html', {'organization_form': organization_form,
+    return render(request, 'create_organization.html', {'organization_form': organization_form,
                                                          'error': error})
 
 # updating json file function after deleting organization
@@ -223,7 +232,7 @@ def edit_organization(request):
         organization.save()
 
         # updating json
-        update_json(old_name)
+        # update_json(old_name)
 
     else:
         organization_form = Editing_Organization(instance=organization)
@@ -246,23 +255,82 @@ def delete_organization(request):
     list_of_three.clear()
     update_list_of_three()
 
-    # updating json database and getting new organization dict
-    new_orgs = update_json(name)
+    # # updating json database and getting new organization dict
+    # new_orgs = update_json(name)
 
     return render(request, 'index.html', {'organizations': list_of_three})
 
 # edit person
 def create_person(request):
-    # creating user formcl
-    person_form = Editing_Person()
 
-    return render(request, 'creating_user.html', {'person_form': person_form})
+    # getting organization name
+    org_name = request.GET.get('name')
+
+    # getting organization
+    organization = Organization.objects.filter(name=org_name)[0]
+
+    # creating user formcl
+    person_form = Editing_Person(request.POST or None)
+
+    # getting data from form and creating person instance
+    if person_form.is_valid():
+        person_name = person_form.cleaned_data.get('name')
+        person_surname = person_form.cleaned_data.get('surname')
+        person_middlename = person_form.cleaned_data.get('middlename')
+        person_date_of_birth = person_form.cleaned_data.get('date_of_birth')
+        person_post = person_form.cleaned_data.get('post')
+        person_hours_per_week = person_form.cleaned_data.get('hours_per_week')
+
+        print(person_name, person_surname, person_date_of_birth, person_post)
+
+        # creating person instance
+        new_person = Person(name=person_name,
+                            surname=person_surname,
+                            middlename=person_middlename,
+                            date_of_birth=person_date_of_birth,
+                            post=person_post,
+                            hours_per_week=person_hours_per_week)
+
+        # saving new person
+        new_person.save()
+
+        # adding new person to organization
+        organization.person.add(new_person)
+
+    return render(request, 'create_person.html', {'person_form': person_form})
 
 def creating_day(request):
-    # creating users day
-    days_form = Editing_Days()
+    # getting person name
+    person_id = request.GET.get('id')
+    print('Id: ', person_id)
+    print('All perons: ', Person.objects.filter(pk=person_id))
 
-    return render(request, 'creating_days.html', {'days_form': days_form})
+    # getting person
+    person = Person.objects.filter(pk=person_id)[0]
+
+    # creating days form
+    days_form = Editing_Days(request.POST or None)
+
+    # getting data from form and creating dat
+    if days_form.is_valid():
+        day_name = days_form.cleaned_data.get('day')
+        day_start = days_form.cleaned_data.get('start')
+        day_end = days_form.cleaned_data.get('end')
+
+        # creating new day instance
+        new_day = Dates(day=day_name,
+                        start=day_start,
+                        end=day_end)
+
+        # saving new day instance
+        new_day.save()
+
+        # adding day to person
+        person.days.add(new_day)
+
+        print('Person days ', person.days.all())
+
+    return render(request, 'create_days.html', {'days_form': days_form})
 
 # view function for home page
 def home(request):
