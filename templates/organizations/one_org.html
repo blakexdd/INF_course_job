@@ -6,17 +6,16 @@
     <title>Title</title>
     <style>
         .wrapper
-    {
-        width: 60px;
-        height: 60px;
-    }
+        {
+            width: 3vw;
+            height: 3vw;
+        }
 
-    .buttons img
-    {
-        height: 100%;
-        width: auto;
-    }
-
+        .buttons img
+        {
+            height: 100%;
+            width: auto;
+        }
     </style>
 </head>
 <body>
@@ -25,13 +24,13 @@
 {% endblock %}
 {% block content %}
     {% if user.is_superuser %}
-        <div style="position: absolute; right: 20vw; top: 40vw">
-            <div class="wrapper buttons">
+            <div style="position: absolute; right: 20vw; top: 40vw">
                     <a href="{% url 'create_person'%}?name={{ name }}">
+                        <div class="wrapper buttons">
                          <img src="../../static/images/add3.png" alt="add button">
+                        </div>
                     </a>
             </div>
-        </div>
     {% endif %}
     <div id="organizations-1">
     <talbe>
@@ -69,11 +68,26 @@
                             Дата рождения: {{ person.0.date_of_birth }}<br>
                             Должность: {{ person.0.post }}<br>
                             Количество часов в неделю: {{ person.0.hours_per_week }}<br>
+                            {% if user.is_superuser %}
+                                <div class="wrapper buttons">
+                                            <div style="position: relative; right: -50vw; top: -20vw">
+                                                    <a href="{% url 'delete_person'%}?id={{ person.0.id }}&name={{ name }}">
+                                                         <img src="../../static/images/delete.png" alt="delete button">
+                                                    </a>
+                                            </div>
+                                               <div style="position: relative; right: -45vw; top: -24vw">
+                                                    <a href="{% url 'edit_person'%}?id={{ person.0.id }}">
+                                                         <img src="../../static/images/edit.png" alt="edit button">
+                                                    </a>
+                                            </div>
+                                </div>
+                            {% endif %}
                             </li>
                             <b>Расписание: </b>
                 {% if user.is_superuser %}
-                            <div style="position: relative; right: -53vw; top: -4vw">
+
             <div class="wrapper buttons">
+            <div style="position: relative; right: -53vw; top: -4vw">
                     <a href="{% url 'create_day'%}?id={{ person.0.id }}">
                          <img src="../../static/images/add3.png" alt="add button">
                     </a>
@@ -85,6 +99,20 @@
                                 <li>{{ day.day }}<br>
                                     Начало: {{ day.start }}<br>
                                     Конец: {{ day.end }}</li>
+                                                            {% if user.is_superuser %}
+                                                                <div class="wrapper buttons">
+                                                                            <div style="position: relative; right: -50vw; top: -10vw">
+                                                                                    <a href="{% url 'delete_day'%}?id={{ day.id }}&name={{ name }}">
+                                                                                         <img src="../../static/images/delete.png" alt="delete button">
+                                                                                    </a>
+                                                                            </div>
+                                                                            <div style="position: relative; right: -45vw; top: -14vw">
+                                                                                    <a href="{% url 'edit_day'%}?id={{ day.id }}">
+                                                                                         <img src="../../static/images/edit.png" alt="edit button">
+                                                                                    </a>
+                                                                            </div>
+                                                                </div>
+                                                            {% endif %}
                                 {% endfor %}
                 </ol>
             {% endfor %}

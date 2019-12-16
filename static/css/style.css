@@ -1,7 +1,7 @@
 body {
- background-color: #000;
- background-image: url("../images/pages_bg.png");
-    height: 100vw;
+     background-color: #000;
+     background-image: url("../images/pages_bg.png");
+     height: 100vw;
 }
 
 html
@@ -12,9 +12,9 @@ html
 table
 {
     position: absolute;
-    left: 20vw;
+    width: 60%;
+    left: 21vw;
     top: 15vw;
-    right: 20vw;
     font-size: 1.5vw;
     border-spacing: 10px;
     border-collapse: separate;
@@ -23,7 +23,6 @@ table
 }
 
 td {
-    padding: 6.6vw;
     border: 1px solid;
     background: lightgray;
 }

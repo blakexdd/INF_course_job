@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth import login, logout, authenticate
 from django.http import HttpResponseRedirect
 import json
@@ -239,6 +239,141 @@ def edit_organization(request):
 
 
     return render(request, 'editing_organizations.html', {'organization_form': organization_form})
+
+# veiw function for editing person info
+def edit_person(request):
+    # getting organization model by name
+    person_id = request.GET.get('id')
+    person = get_object_or_404(Person, pk=person_id)
+
+    if request.method == 'POST':
+        person_form = Editing_Person(request.POST, instance=person)
+
+        # assigning new organization info
+        person_new_name = request.POST.get('name')
+        person_new_surname = request.POST.get('surname')
+        person_new_middlename = request.POST.get('middlename')
+        person_new_date_of_birth = request.POST.get('date_of_birth')
+        person_new_post = request.POST.get('post')
+        person_new_hours_per_week = request.POST.get('hours_per_week')
+
+        # editing organization
+        person.name = person_new_name
+        person.surname = person_new_surname
+        person.middlename = person_new_middlename
+        person.date_of_birth = person_new_date_of_birth
+        person.post = person_new_post
+        person.hours_per_week = person_new_hours_per_week
+        person.save()
+
+        # updating json
+        # update_json(old_name)
+
+    else:
+        person_form = Editing_Person(instance=person)
+
+    return render(request, 'editing_person.html', {'person_form': person_form})
+
+# view function for editing day
+def edit_days(request):
+    # getting organization model by name
+    day_id = request.GET.get('id')
+    day = get_object_or_404(Dates, pk=day_id)
+
+    if request.method == 'POST':
+        day_form = Editing_Days(request.POST, instance=day)
+
+        # assigning new organization info
+        day_new_name = request.POST.get('day')
+        day_new_start = request.POST.get('start')
+        day_new_end = request.POST.get('end')
+
+        # editing organization
+        day.day = day_new_name
+        day.start = day_new_start
+        day.end = day_new_end
+        day.save()
+
+    else:
+        day_form = Editing_Days(instance=day)
+
+    return render(request, 'editing_day.html', {'day_form': day_form})
+
+# view function for deleting person
+def delete_person(request):
+    # getting persons id and organization name
+    person_id = request.GET.get('id')
+    org_name = request.GET.get('name')
+
+    # finding person in database
+    person_to_delete = Person.objects.get(pk=person_id)
+
+    # deleting person
+    person_to_delete.delete()
+
+    org = get_object_or_404(Organization, name=org_name)
+
+    # parsing schedule for personel
+    personal = []
+    parsed_dates = []
+    for person in org.person.all():
+        print('Person: ', person)
+        for days in person.days.all():
+            print('Days: ', days)
+            parsed_dates.append(days)
+        personal.append([person, parsed_dates])
+
+    print('List of persons and dates: ', personal)
+
+    # creating dict with organization fields
+    vars = dict(
+        name=org.name,
+        year_of_est=org.year_of_est,
+        location=org.location,
+        brief_description=org.brief_description,
+        personel=org.person.all(),
+        pers=personal
+    )
+
+    return render(request, 'organizations/one_org.html', vars)
+
+# view function for deleting day
+def delete_day(request):
+    # getting days id and organizaiton name
+    days_id = request.GET.get('id')
+    org_name = request.GET.get('name')
+
+    # findgin day in database
+    day_to_delete = Dates.objects.get(pk=days_id)
+
+    # deleting day
+    day_to_delete.delete()
+
+    org = get_object_or_404(Organization, name=org_name)
+
+    # parsing schedule for personel
+    personal = []
+    parsed_dates = []
+    for person in org.person.all():
+        print('Person: ', person)
+        for days in person.days.all():
+            print('Days: ', days)
+            parsed_dates.append(days)
+        personal.append([person, parsed_dates])
+
+    print('List of persons and dates: ', personal)
+
+    # creating dict with organization fields
+    vars = dict(
+        name=org.name,
+        year_of_est=org.year_of_est,
+        location=org.location,
+        brief_description=org.brief_description,
+        personel=org.person.all(),
+        pers=personal
+    )
+
+    return render(request, 'organizations/one_org.html', vars)
 
 # veiw function for deleting organization
 def delete_organization(request):

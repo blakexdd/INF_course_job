@@ -29,8 +29,11 @@ urlpatterns = [
     url(r'^users/', include('users.urls', namespace='users')),
     url(r'^create_org$', views.create_organizations, name='create_organization'),
     url(r'^create_person$', views.create_person, name='create_person'),
-    url(r'^edit_pers$', views.create_person, name='create_person'),
     url(r'^edit_days$', views.creating_day, name='create_day'),
-    url(r'^delete$', views.delete_organization, name='delete_organization'),
-    url(r'^org_edit$', views.edit_organization, name='edit_organization')
+    url(r'^delete_org$', views.delete_organization, name='delete_organization'),
+    url(r'^delete_pers$', views.delete_person, name='delete_person'),
+    url(r'delete_day$', views.delete_day, name='delete_day'),
+    url(r'^org_edit$', views.edit_organization, name='edit_organization'),
+    url(r'^edit_person$', views.edit_person, name='edit_person'),
+    url(r'edit_day$', views.edit_days, name='edit_day')
 ]

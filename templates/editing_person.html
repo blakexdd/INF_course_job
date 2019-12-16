@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="">
+    <div style="position: absolute; top:7vw">
+        {% csrf_token %}
+                <b>Сотрудник: </b><br><br>
+                Имя: {{ person_form.name }}<br><br>
+                Фамилия: {{ person_form.surname }}<br><br>
+                Отчество: {{ person_form.middlename }}<br><br>
+                Дата рождния: {{ person_form.date_of_birth }}<br><br>
+                Должность: {{ person_form.post }}<br><br>
+                Количество часов в неделю: {{ person_form.hours_per_week }}<br><br>
+        <input type="submit" value="Изменить" />
+    </div>
+</form>
+</body>
+</html>
