@@ -13,47 +13,16 @@
 
 <style type="text/css">
 
-    .delete_button
-    {
-        position:relative;
-        right: -15vw;
-        top:-1.7vw;
-    }
+  .edit_button{
+      position: relative;
+      right: 0;
+      top: 0;
+  }
 
-    .delete_button_left
-    {
-        position: relative;
-        right: -19vw;
-        top:-1.7vw;
-    }
-
-    .edit_button_left
-    {
-        position: relative;
-        right: -16vw;
-        top: -4.7vw;
-    }
-
-    .delete_button_right
-    {
-        position: relative;
-        right: -10vw;
-        top:-1.7vw;
-    }
-
-    .edit_button_right
-    {
-        position: relative;
-        right: -7vw;
-        top: -4.7vw;
-    }
-
-    .edit_button
-    {
-        position: relative;
-        right: -12vw;
-        top:-4.7vw;
-    }
+  .delete_button{
+      position: relative;
+      right: 0;
+  }
 
 
    .organization
@@ -66,8 +35,8 @@
 
     .wrapper
     {
-        width: 3vw;
-        height: 3vw;
+        width: 2vw;
+        height: 2vw;
     }
 
     .buttons img
@@ -141,12 +110,12 @@
                     {{ org.0.name }}
                 </a>
                 {% if user.is_superuser %}
-                        <div class="wrapper buttons delete_button_left">
+                        <div class="wrapper buttons delete_button">
                           <a href="{% url "delete_organization" %}?name={{ org.0.name }}">
                             <img src="../static/images/delete.png" alt="delete button">
                           </a>
                         </div>
-                    <div class="wrapper buttons edit_button_left">
+                    <div class="wrapper buttons edit_button">
                         <a href="{% url "edit_organization" %}?id={{ org.0.id }}">
                             <img src="../static/images/edit.png" alt="edit button">
                         </a>
@@ -161,12 +130,12 @@
                     {{ org.0.name }}
                 </a>
                 {% if user.is_superuser %}
-                <div class="wrapper buttons delete_button_left">
+                <div class="wrapper buttons delete_button">
                   <a href="{% url "delete_organization" %}?name={{ org.0.name }}">
                             <img src="../static/images/delete.png" alt="delete button">
                   </a>
                 </div>
-                    <div class="wrapper buttons edit_button_left">
+                    <div class="wrapper buttons edit_button">
                         <a href="{% url "edit_organization" %}?id={{ org.0.id }}">
                             <img src="../static/images/edit.png" alt="edit button">
                         </a>
@@ -198,12 +167,12 @@
                     {{ org.0.name }}
                 </a>
                 {% if user.is_superuser %}
-                <div class="wrapper buttons delete_button_left">
+                <div class="wrapper buttons delete_button">
                   <a href="{% url "delete_organization" %}?name={{ org.0.name }}">
                             <img src="../static/images/delete.png" alt="delete button">
                   </a>
                 </div>
-                    <div class="wrapper buttons edit_button_left">
+                    <div class="wrapper buttons edit_button">
                         <a href="{% url "edit_organization" %}?id={{ org.0.id }}">
                             <img src="../static/images/edit.png" alt="edit button">
                         </a>
@@ -232,12 +201,12 @@
                     {{ org.2.name }}
                 </a>
                 {% if user.is_superuser %}
-                <div class="wrapper buttons delete_button_right">
+                <div class="wrapper buttons delete_button">
                     <a href="{% url "delete_organization" %}?name={{ org.2.name }}">
                             <img src="../static/images/delete.png" alt="delete button">
                     </a>
                 </div>
-                    <div class="wrapper buttons edit_button_right">
+                    <div class="wrapper buttons edit_button">
                         <a href="{% url "edit_organization" %}?id={{ org.2.id }}">
                             <img src="../static/images/edit.png" alt="edit button">
                         </a>
