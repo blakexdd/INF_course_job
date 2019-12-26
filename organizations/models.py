@@ -46,19 +46,23 @@ class Person(models.Model):
 # creating organization model
 class Organization(models.Model):
     # creating name of organization
-    name = models.CharField(max_length=20)
+    name = models.CharField(max_length=40)
 
     # creating year of establishing organiazation
     year_of_est = models.CharField(max_length=10)
 
     # creating location of organization
-    location = models.CharField(max_length=40, default='St. Petersburg')
+    location = models.CharField(max_length=70, default='St. Petersburg')
 
     # creating brief description of organization
-    brief_description = models.CharField(max_length=150, default='Some organization')
+    brief_description = models.CharField(max_length=500, default='Some organization')
 
     # creating persons working in the company
     person = models.ManyToManyField(Person)
 
+# searching model
+class Search(models.Model):
+    # creating query
+    query = models.CharField(max_length=150)
 
 

@@ -55,6 +55,15 @@
     }
 
 </style>
+{% block search %}
+<form method="post" action="">
+{% csrf_token %}
+<div style="position:absolute; left: 60vw; top:11vw">
+{{ search_form.query }}
+    <input type="submit" value="Поиск" />
+</div>
+</form>
+{% endblock %}
 
 {% block header_rect %}
 <div id="rectangle"></div>

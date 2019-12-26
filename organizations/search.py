@@ -1,4 +1,3 @@
-
 from gensim.models import FastText
 from .models import Organization
 

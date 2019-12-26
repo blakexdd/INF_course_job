@@ -1,0 +1,839 @@
+Yandex N.V. (; Russian: Яндекс, IPA: [ˈjandəks]) is a Russian multinational corporation specializing in Internet-related products and services, including transportation, search and information services, eCommerce, navigation, mobile applications, and online advertising. Yandex provides over 70 services in total.
+Incorporated in the Netherlands, Yandex primarily serves audiences in Russia and the Commonwealth of Independent States. The company founders and most of the team members are located in Russia. The company has 18 commercial offices worldwide.
+It is the largest technology company in Russia and the largest search engine on the internet in Russian, with a market share of over 52%. The Yandex.ru home page is the 4th most popular website in Russia. It also has the largest market share of any search engine in the Commonwealth of Independent States and is the 5th largest search engine worldwide after Google, Baidu, Bing, and Yahoo!.
+Yandex's main competitors on the Russian market are Google, Mail.ru, and Rambler.
+According to the company, one of its biggest advantages for Russian-language users is the ability to recognize Russian inflection in search queries.Yandex has invested in companies including Vizi Labs, Face.com, Blekko, Seismotech, Multiship, SalesPredict, and Doc+.
+
+
+== Offices ==
+Yandex has offices in 17 countries. Yandex Labs was opened in Silicon Valley in 2008, and also in Istanbul in 2011.The company opened a sales office in Lucerne in 2012 to serve its European advertising clients,while opening a research and development office in Berlin in 2014.Yandex opened its first office in Shanghai during 2015 to work with Chinese companies that work in the Russian language market.
+
+
+== History ==
+
+
+=== 1990s ===
+Yandex traces its roots to 1990, when Arkady Volozh and Arkady Borkovsky founded Arkadia, a company that developed MS-DOS software for use in patents and goods classification. Their software featured a full-text search with Russian morphology support. In 1993, Arkadia became a subdivision of Comptek International, another company founded by Volozh in 1989.In 1993, Arkady Volozh and Ilya Segalovich, friends since their school days and by then working together to develop search software, invented the word "Yandex" to describe their search technologies. The name initially stood for "Yet Another iNDEXer". The Russian word "Я" ("Ya") corresponds to the English personal pronoun "I", making "Яndex" a bilingual pun on "index". Another pun is based on the yin and yang contrast (Russian: инь – индекс, ян – яндекс).
+Between 1993 and 1996, the company continued developing its search technologies and released software for searching through the Bible.The Yandex.ru search engine was launched on September 23, 1997, and was publicly presented at the Softool exhibition in Moscow. Initially, the search engine was developed by Comptek. In 2000, Yandex was incorporated as a standalone company by Arkady Volozh.In 1998, Yandex launched contextual advertisement on its search engine. 
+
+
+=== 2000s ===
+In 2001, it launched the Yandex.Direct online advertising network.The company became profitable in November 2002. In 2004, Yandex sales increased to $17 million, up 1000% in 2 years. The net income of the company in 2004 was $7 million. In June 2006, the weekly revenue of Yandex.Direct context ads system exceeded $1 million. The company's accounting has been audited by Deloitte since 1999.
+In September 2005, Yandex opened an office in Ukraine and launched www.yandex.ua. In 2007, Yandex introduced a customized search engine for Ukrainian users; Yandex also opened its development center in Kiev in May 2007. In 2008, Yandex extended its presence in Ukraine by increasing bandwidth between Moscow data centers and UA-IX in Ukraine fivefold. In 2009, all services of www.yandex.ua were localized for the Ukrainian market. In 2010, Yandex launched its "Poltava" search engine algorithm for Ukrainian users, based on its MatrixNet technology.In March 2007, Yandex acquired moikrug.ru, a Russian social networking service.On June 16, 2008, Yandex acquired SMILink, a Russian road traffic monitoring agency, to merge it with Yandex. Maps services.On June 20, 2008, Yandex announced the formation of Yandex Labs in Silicon Valley. The main objective of the division is to foster "innovation in search and advertising technology".In September 2008, Yandex acquired the rights to the Punto Switcher software program, an automatic Russian to English keyboard layout switcher.In January 2009, Mozilla Firefox 3.5, replaced Google with Yandex as the default search provider for Russian-language builds.In August 2009, Yandex introduced a player of free legal music in its search results.
+
+
+=== 2010s ===
+In September 2010, Yandex launched the Yandex Music service and significantly extended its music catalogue to 800,000 tracks from 58,000 performers.On May 19, 2010, Yandex launched an English-only web search engine.In September 2010, Yandex invested in a $4.3 million financing round by Face.com. The company was acquired by Facebook in 2012.
+In December 2010, Yandex launched Yandex.Start to find startups and to work with them systematically. As a result of the program, Yandex purchased WebVisor's behavior analysis technology in December 2010.On January 26, 2011, Yandex introduced premium placement opportunity in its Business directory; advertisers' local small businesses are highlighted on a map for relevant queries.On January 27, 2011, the company acquired single sign-in service Loginza.On May 3, 2011, as part of a disclosure on the "legal and political risks" of investing in Russia, before the listing on NASDAQ, Yandex revealed that it had passed private customer information to the Federal Security Service, including that of users who had donated money via Yandex to an anti-corruption website set-up by Alexei Navalny.On May 24, 2011, Yandex raised $1.3 billion in an initial public offering on NASDAQ. It was the biggest initial public offering for a dot-com company since Google's offering in 2004. Among the largest investors in Yandex were Baring Vostok Capital Partners, which owned a 30% stake, and Tiger Management, which owned a 15% stake.In August 2011, Yandex acquired The Tweeted Times, a news delivery startup.In September 2011, Yandex launched a search engine and a range of other services in Turkey. The company also opened an office in Istanbul.In September 2011, the company invested in Blekko as part of a $30 million financing round.In November 2011, Yandex acquired SPB Software, a software developer, for $38 million.In June 2012, Yandex acquired a 25% stake in Seismotech, a company that provides services in the area of interpretative processing of seismic data and software development, for $1 million.In March 2013, the company added an English user interface to its translation mobile app.In July 2013, Mail.Ru started placing Yandex.Direct ads on its search result pages.In October 2013, Yandex acquired KinoPoisk, the biggest Russian movie search engine.In 2013, Yandex became the largest media property in Russia by revenue.In February 2014, Yandex invested several million dollars in MultiShip.In March 2014, Yandex acquired Israeli geolocation startup KitLocate and opened a research and development office in Israel.In April 2014, a movie called Startup, about the history of Yandex was released.In June 2014, Yandex acquired Auto.ru, an online marketplace and classified advertising website for automobiles, for $175 million.In December 2015, Yandex acquired Agnitum, an internet security company.On June 1, 2017, Yandex closed its offices in Kiev and Odessa, Ukraine after the Security Service of Ukraine raided the offices and accused the company of illegally collecting Ukrainian users’ data and sending it to Russian security agencies. Yandex denied any wrongdoing.
+On June 6, 2017, the company invested in a $5 million financing round by Doc+.In August 2017, all Yandex services were banned in Ukraine by Presidential Decree No. 133/2017.On October 10, 2017, Yandex introduced its intelligent personal assistant, Alisa (Alice) for Android, iOS, and Microsoft Windows.In December 2017, the company acquired Foodfox, a food delivery service.In 2017, within the framework of a joint anti-phishing project of the Bank of Russia and search engine Yandex, a special check mark (a green circle with a tick and 'Реестр ЦБ РФ' (Bank of Russia Register) text box) appeared in the search results, informing the consumer that the website is really owned by a legally registered company licensed by the Bank of Russia.On February 7, 2018, Uber and Yandex NV merged their businesses in Russia, Kazakhstan, Azerbaijan, Armenia, Belarus and Georgia. Uber invested $225 million and owns 36.6% stake in the venture while Yandex invested $100 million and owns a 59.3% stake.On February 16, 2018, the company showed off the first tests of its autonomous cars in Moscow.In May 2018, Sberbank and Yandex completed joint venture deal  to develop a B2C eCommerce ecosystem.In October 2018, Yandex acquired Edadil (Russian: Едадил, lit. "grocery deals"), a deal aggregator service.In 2019 the company announced that it was being forced to hand over the encryption keys to the Russian FSB, exposing private communication of its users. The company responded that it was possible to comply without compromising the privacy of personal data.
+In October and November 2018, hackers used malware called Regin to steal technical information from Yandex's research and development unit. The hack was attributed to the Five Eyes by Kaspersky Lab.
+
+
+== See also ==
+ClickHouse
+Cocaine (PaaS)
+Comparison of webmail providers
+Elliptics
+Public recursive name servers
+
+
+== References ==<n>Barsky Forest (Russian: лес Барский) is a forest in the northwestern part of Ishimbaysky District of Bashkortostan (Russia). It covers an area of 14 km ² and is located approximately 20 km from Sterlitamak and 20 km from Ishimbay.The principal tree species in Barsky Forest are oak and lime.
+
+
+== See also ==
+Akhmerovsky Forest
+
+
+== References ==<n>MegaFon (Russian: МегаФон), previously known as North-West GSM, is the second largest mobile phone operator and the third largest telecom operator in Russia. It works in the GSM,  UMTS and LTE standard. Its main competitors are Mobile TeleSystems (MTS), VimpelCom (Beeline), and Tele2 (Rostelecom) in the cellular segment, and Rostelecom and Interregional TransitTelekom in the fixed-line segment. As of June 2012, the company serves 62.1 million subscribers in Russia and 1.6 million in Tajikistan. It is headquartered in Moscow.
+In 2002 the company changed its name from North-West GSM to MegaFon when it acquired several regional companies, becoming the first GSM company in Russia to cover all its territory. The name "MegaFon" in Russian is spelled and pronounced exactly like the Russian word for megaphone; other connotations are mega- as "big" and fon as "telephone".
+
+
+== History ==
+June 17, 1993, was the registration date of North-West GSM CJSC (Saint Petersburg). Alexander Malyshev became the first General Director. The major international investors included Scandinavian companies Sonera (Finland), Telia International AB (Sweden) and Telenor Invest AS (Norway). Telecommunication equipment was supplied by Nokia.1994 – launch of commercial operation of GSM (2G) network, the first in Russia.1999 – number of the company's subscribers became over 100,000. By that time the network of the North-West GSM had completely covered Saint Petersburg and Leningrad region, it was also actively expanding in the northern areas of the Russian North-West.July 1999 – North-West GSM was the first Russian operator that signed roaming agreements with all countries in Europe. The same year, for the first time ever in Russia, mobile communication started to operate in Saint Petersburg metro, and the operator's spectrum of value-added services included WAP-access to the Internet.
+2000 – shareholders of the company adopted a new strategy that was targeted at the mass market.November 2001 – number of North-West GSM subscribers exceeded 500,000.May 2002 – The number of North-West GSM subscribers exceeded  1 million.May 7, 2002 – in the course of rebranding North-West GSM CJSC was renamed to MegaFon OJSC. Rebranding of the company was started on April 28, 2002, by change of the logo. At that moment, North-West GSM was merged with Sonic Duo CJSC (Moscow), Ural GSM CJSC (Yekaterinburg), Mobicom-Kavkaz CJSC (Krasnodar), Mobicom-Center CJSC, Mobicom-Novosibirsk CJSC, Mobicom-Khabarovsk CJSC, MCS-Povolzhie OJSC, Volzhsky GSM (Saransk, Republic of Mordovia).On October 2, 2008, MegaFon launched for operation the first Russian fragment of the third generation network in IMT-2000/UMTS (3G) at the territory of Saint Petersburg and Leningrad region. For the first time ever in this country the radio access sub-system UTRAN (UMTS Terrestrial Radio Access Network) was launched for trial commercial operation and included 30 base stations. And already on October 24, 2007, MegaFon announced about start of 3G service in Saint Petersburg and Leningrad region. For the first time in Russia, the following services became available for mass users: Internet access at the data transmission speed that is ten times higher than in the existing GSM networks (2G and 2,5G) of GPRS/EDGE technology, high-quality Mobile TV, video communication.December 2008 – the extraordinary General Shareholders Meeting of MegaFon took a resolution on reorganization of MegaFon OJSC in the form of its merger with Sonic Duo CJSC (Moscow), Ural GSM CJSC (Yekaterinburg), Mobicom-Kavkaz CJSC (Krasnodar), Mobicom-Center CJSC, Mobicom-Novosibirsk CJSC, Mobicom-Khabarovsk CJSC, MCS-Povolzhie OJSC. The number of subscribers exceeded 43.2 million.On March 16, 2009, MegaFon founded a virtual mobile network operator "PROSTO" (Just for Communication) on the basis of the Stolichny Branch.On July 1, 2009, reorganization was completed, and now mobile communication services in Russia are provided by the North-West, Stolichny, Kavkaz, Center, Volga, Ural, Siberia and Far East branches of MegaFon OJSC.On September 25, 2009, it was announced about rebranding of TT mobile CJSC, subsidiary of MegaFon that provided telecom services under the brand of MLT – "Mobile Lines of Tajikistan". The new company's name is MegaFon-Tajikistan.Since March 1, 2010, Ostelecom CJSC started to provide telecom services in the Tskhinvali region (occupied territory of Georgia) under MegaFon brand.In June 2010, MegaFon acquired 100% shares of Synterra company, which was a move to strengthen network infrastructure and enhance the positions in the markets of long-distance communication, fixed and mobile broadband access to the Internet, as well as convergence services.Three months later, the extraordinary General Shareholders Meeting of MegaFon unanimously approved acquisition of 100% shares of PeterStar CJSC from Synterra.Based on the results of Q3 2010 MegaFon became the second-ranked operator in mobile revenue.Based on Q3 2010 results MegaFon became the leader in the revenue share from value-added services (VAS) among the Big Three operators.As a result of 2010, MegaFon became the Top 2 operator (after MTS) in number subscribers among the Russian cellular communication providers.As a result of 2010, MegaFon acquired the Top Second position in terms of revenue among the Russian Big Three operators.On July 20, 2011, it was announced about rebranding of TT mobile CJSC. MLT brand was renamed to MegaFon-Tajikistan.In November 2011, MegaFon signed a partnership agreement with Scartel on joint development of the Fourth Generation networks LTE (Long Term Evolution) in Russia. As a result, the company got the opportunity to provide LTE 4G services using Scartel's equipment. In its turn, Scartel will be able to use MegaFon's infrastructure.In December 2011, the company created MegaLabs, 100% subsidiary, which is the single center of design and launch of value-added services.In August 2012 MegaFon released its first smartphone called Megafon Mint in Russia with the new Intel Atom (system on chip). In December 2013 the company received a licence for cable television broadcasting.In January 2014 the company has launched international roaming data networks in the fourth generation. The first countries where service is available are Switzerland and South Korea. The same month MegaFon CEO Ivan Tavrin obtained a 12% stake of VK.com, Russia's most popular social networking website, from VK's founder Pavel Durov.On February 2014 board of directors of MegaFon has approved a deal to buy a 100% voting stake in SMARTS Volgograd, a unit of mobile firm SMARTS which covers the Volga and central regions of the country.In the same month, MegaFon commercially launched fragment network LTE Advanced (LTE-A) within the Garden Ring in Moscow. Formerly MegaFon network tested LTE-A in the 2014 Winter Olympics in Sochi. For this Megafon uses bands in the range 2600 MHz own unique combination of frequency spectrum and network resource of Skartel as a mobile virtual network operator (MVNO).
+
+
+== Hardware branding ==
+In recent years, the company began production of hardware under "MegaFon" brand. These include fixed and mobile phones as well as tablet computers branded as MegaFon Login. They are produced in Taiwan and may bear technical indexes such as "SP-AI" and "MT3A".
+
+
+== Owners and management ==
+The Company was founded by the largest foreign investors: Sonera (Finland), Telia International AB (Sweden) now merged into Telia Company, along with Telenor Invest AS (Norway). Telecom equipment was purchased from Nokia.
+The owners of the company as of March 2018 are as follows:
+USM Group (owner – Alisher Usmanov) owns 56.32% shares directly
+Gazprombank Group owns 18.79%.
+MICL owns 3.92%
+
+
+== Outside Russia ==
+
+
+=== Allegations ===
+The Georgian National Communications Commission (GNCC) has accused the Russian mobile telecommunications company MegaFon of illegal business operations and participation in the military and economic annexation of Georgia.
+According to the GNCC, "MegaFon" has provided unlicensed mobile phone coverage in the conflict zones of Georgia beginning in 2005, in particular – the South Ossetia region. The company covered mostly the areas of dislocation of the Russian military forces present in Georgia under the CIS peacekeeping mandate. The rest of the area was mostly covered by the Georgian mobile phone carriers "Geocell" Ltd. and "Magticom". In the spring of 2008, GNCC received complaints from Georgian mobile communication companies regarding the destruction of their communication facilities in the region and installation of MegaFon antennas. The GNCC conducted survey monitoring trips to establish the presence of MegaFon's unlicensed coverage. 
+The GNCC has imposed two fines on MegaFon: the first – in the amount of 5,000 GEL ($3,750) in July 2008, and the second, for the recurrence of violation in the amount of 500,000 GEL (approx. $350,000) in September 2008.Because Georgian law envisages criminal liability for illegal business activities, the GNCC has notified the General Prosecutor of Georgia on the alleged violations committed by MegaFon. The Prosecutor General of Georgia is expected to initiate criminal proceedings against key officials of MegaFon.
+On October 2, 2008, Tbilisi City Court upheld the decision of GNCC, finding MegaFon liable for providing unlicensed telecommunication services in Georgia.
+MegaFon's appeal of the second administrative fine shall be heard by Tbilisi City Court in November 2008.
+
+
+=== Tajikistan ===
+MegaFon's only subsidiary outside Russia is Tajikistan's TT Mobile.
+
+
+=== Uzbekistan ===
+Kommersant reported on September 7, 2006, that MegaFon is negotiating in buying an 85% stake in Uzbek mobile operator Coscom from the MCT Corpation. The other 15% stake in Coscom would be held by Coscom management and private shareholders. Analysts estimated Coscom is worth between US$180–200 million. Coscom's has over 300,000 customers.
+
+
+=== Iran ===
+BBC Persian reported on May 13, 2008, that Megafon has opened its office in Tehran.
+
+
+== Sponsorship ==
+Megafon is sponsor of KHL
+For the 2009 Formula One season, MegaFon was one of the sponsors for the Renault F1 Team.
+Megafon is a national partner for 2014 Winter Olympics in Sochi in 2014
+MegaFon is a sponsor for Russian e-sports team Virtus Pro
+
+
+== Criticism ==
+By November 2012 MegaFon received a number of orders from Russian telecommunication and consumer market authorities to amend contracts with its 63 million subscribers and to make these contracts compliant with requirements of Russian law. All MegaFon's attempts to challenge these orders in Russian arbitration courts were unsuccessful.MegaFon violated consumer rights a number of times in 2012 calendar year. Following the recent changes of Russian law (Article 40 in RF Law on February 7, 1992, year No. 2300-1 "On Protection of Consumer Rights"), competent authorities may demand an immediate liquidation of the company.
+MegaFon did not meet requirements of Russian legislation and did not report any legally required certificates of compliance to the Federal Communications Agency Rossvyaz.
+
+
+== Spam prevention ==
+In the «Megafon» network there are a number of security issues and instruments for spam preventing:
+
+automation system for collecting and analysis of claims on the facts of the undesirable SMS messages (smishing, mailings, notifications about discounts, sales, etc.). Short number «1911». It is enough to send the received undesirable message to this number;
+it is possible to report about the fraud manually, having filled a form online on the specialized portal "Safe communications";
+protection against the undesirable entering cold calls, casual  (сell time) calls, vishing, Quid pro quo  is paid.
+
+
+== References ==
+
+Helsingin Sanomat 28 March 2006 (in Finnish)
+Russia at Heart of German Probe – Moscow Times July 26, 2005
+European Commission to investigate TeliaSonera deals in Russia – Helsingin Sanomat 28 March 2006
+
+
+== External links ==
+MegaFon English corporate site
+Alfa Group Accused of Bribing to Buy MegaFon June 13, 2006
+Reuters: Georgia's Communications Commission Fines Russia's Megafon; Decries 'Economic Annexation'
+Reuters:Georgia threatens to multiply Russia MegaFon fine
+Reuters: Georgia files charges against Russia's MegaFon
+Reuters: Megafon Goes to Court in Georgia over Disputed South Ossetia Operations
+EurasiaNet: THE FIGHT BETWEEN TBILISI AND MOSCOW OVER SOUTH OSSETIA GOES CELLULAR
+Reuters: Court Upholds Fine Against Megafon for Illegal Operations in Georgia
+Guardian: Dreams of empire strike back Q: What do Osama bin Laden and Vladimir Putin have in common? A: Worrying ambitions to reverse imperial decline
+Unofficial MegaFon page<n>Football Club Anzhi Makhachkala (Russian: Футбо́льный клуб «Анжи́» Махачкала́, pronounced [fʊdˈbolʲnɨj kɫup ɐnˈʐɨ məxətɕkɐˈɫa]) is a Russian football club based in Makhachkala, capital of the Republic of Dagestan. Founded in 1991, the club compete in the Russian Professional Football League, playing their home games at the Anzhi-Arena.
+On 18 January 2011, Anzhi Makhachkala was purchased by billionaire Suleyman Kerimov, and subsequently made numerous high-profile signings, including those of striker Samuel Eto'o and manager Guus Hiddink. Following severe budget cuts ahead of the 2013–14 Russian Premier League season, the club lost most of its key players and went on to finish bottom of the table, which resulted in relegation to the Russian National Football League at the end of the season, returning at the first attempt.
+
+
+== History ==
+The club was founded in 1991 by former Dinamo Makhachkala player Aleksandr Markarov with the head of Dagnefteprodukt – Magomed-Sultan Magomedov and took part in its first season in the Dagestan League the same year. The club's name Anzhi means pearl in local Kumyk language and is a former name of Makhachkala. FC Anzhi ended up as league champions with an unbeaten record and 16 wins out of 20 matches.Due to the dissolution of the Soviet Union, the club entered Zone 1 of the Russian Second Division (the third-highest tier) in 1992 and finished in fifth place. The club won their Group in 1993, but due to league reorganisation were not promoted, and remained in the new Western Zone of the third tier until a second-place finish in 1996 guaranteed promotion to the First Division, under the coaching of Eduard Malofeev. A key player in Anzhi's early history was Azerbaijani international forward Ibragim Gasanbekov, who was the team's top scorer in all of their first seven seasons. He was league top scorer in 1993 (30 goals) and 1996 (33 goals).
+In 1999, Anzhi won the First Division, and were thus promoted to the top-flight Premier League for the first time. The side missed out on a bronze-medal finish on the last day of the season, as they conceded a last-minute Torpedo Moscow penalty which took their opponents into third place. On 20 June 2001, the club played in the final of the Russian Cup for the first time, losing to Lokomotiv Moscow on penalties after a 1–1 draw.Anzhi finished 15th and were relegated from the Premier League in 2002, but during their first season back in the First Division, they reached the semi-finals of the Russian Cup, where they lost 1–0 to Rostov. In their seventh season in the First Division, Anzhi won the league and returned to the Premier League. On 5 December 2010, defender Shamil Burziyev died in a car accident at the age of 25.
+
+
+=== Purchase ===
+
+On 18 January 2011, the club was purchased by Dagestani billionaire Suleyman Kerimov, but later it was revealed that the President of Dagestan, Magomedsalam Magomedov, met Kerimov and gave him a 100% stake in the club, including 50% of the shares of the former owner of the club Igor Yakovlev, in exchange for financial support. Kerimov was planning to invest over $200 million in infrastructure, of which a substantial amount will go in building a new stadium with a capacity of more than 40,000 spectators, which would meet all UEFA requirements.Kerimov's investment was immediate as the club made signings in the 2011 winter transfer window. The first significant signing came on 16 February, when the club announced the free transfer of Brazilian left-back Roberto Carlos, a FIFA World Cup winner in 2002. Further signings included €10 million on another Brazilian, the former Corinthians midfielder Jucilei and €8 million on Moroccan winger Mbark Boussoufa from Anderlecht. Boussoufa's transfer was finalised in the last minute of the window, on 10 March.In summer 2011, the club signed the Hungarian Balázs Dzsudzsák, who signed a four-year deal to transfer for a reported €14 million. Anzhi also bought Russian midfielder Yuri Zhirkov from Chelsea for a similar fee. On 23 August 2011, Cameroonian striker Samuel Eto'o signed from Inter Milan for approximately €28 million on a world-record €20.5 million annual salary.In February 2012, the club appointed the experienced Dutchman Guus Hiddink as its new manager following Yuri Krasnozhan's two-month-long spell in charge. Hiddink's first signing was Congolese defender Christopher Samba, joining for £12 million from Blackburn Rovers.On 30 January 2012, Roberto Carlos announced his plans to retire at the end of the season. He ended his football career on 9 March and took up a role as the club's director.On 10 October 2012, Anzhi opened a youth academy, the first in Dagestan in order to develop youth talents for the first team. The academy is being run by Anzhi Sporting Director Jelle Goes.On 22 July 2013, Hiddink resigned from his post as manager, ending an 18-month stint. His newly appointed assistant, countryman René Meulensteen, was promoted to the manager position. However, after 16 days as the team manager, Meulensteen was sacked.
+
+
+=== Budget cuts ===
+On 7 August 2013, Kerimov decided to reduce the team's annual budget by two-thirds. As a result, on 15 August 2013, Yuri Zhirkov, Igor Denisov (who had only joined the club in June) and Aleksandr Kokorin (who himself had just signed weeks before) were packaged to Dynamo Moscow for an undisclosed fee. The three players had been purchased with the previous two years at a cost exceeding €50 million. Remchukov said that the reason for the move was the "sharp deterioration in the health of Suleyman Kerimov, because of worries about the club's lack of success". In addition, Dynamo also signed Christopher Samba, Vladimir Gabulov and Aleksei Ionov from Anzhi. Other cost-cutting transfers included Samuel Eto'o and Willian to English side Chelsea (the latter of which had only just signed for Anzhi in January 2013); Lassana Diarra, Mbark Boussoufa and Arseniy Logashov to Lokomotiv Moscow; João Carlos to Spartak Moscow; and Oleg Shatov to Zenit Saint Petersburg. The firesale continued into January 2014 with the sale of striker Lacina Traoré to Monaco for €18 million and the sale of midfielder Jucilei to Emirati side Al-Jazira.Several of the players sold had been recent signings for Anzhi; Aleksandr Kokorin had signed from Dynamo only a month before being sold back to the Dinamiki and had yet to make an appearance for Anzhi. Igor Denisov and Aleksei Ionov had both only signed in June and had played only a handful of matches before being sold. Christopher Samba had rejoined Anzhi in July after a spell with Queens Park Rangers. Willian had joined in January and played only 11 league matches before being sold.
+The budget cut resulted in Anzhi performing very poorly in the 2013–14 Russian Premier League: when the season ended, Anzhi finished last and were relegated after amassing a record-low of three wins and 20 points, making them the worst last-placed team in Europe. However, they returned to the top division at the first attempt.
+
+
+=== Recent history ===
+Yuri Semin was announced as Anzhi's manager on 18 June 2015, signing a one-year contract with the option of an additional year. After gaining only 6 points in first 10 games of the 2015–16 season and with Anzhi in last place, Semin left Anzhi on 29 September 2015. After Semin's departure, Ruslan Agalarov was placed in charge of the club, until the end of the season, saving them from relegation with a play-off victory over Volgar Astrakhan.
+Pavel Vrba was appointed as the club's new manager on 30 June 2016, following the expiration of Ruslan Agalarov's contract on 31 May 2016. On 28 December 2016, Suleyman Kerimov sold the club to Osman Kadiyev, with Pavel Vrba leaving by mutual consent two days later, with Aleksandr Grigoryan being appointed as the club's new manager on 5 January 2017.Anzhi was relegated from the Russian Premier League once again at the end of the 2017–18 season, losing the relegation playoffs to FC Yenisey Krasnoyarsk with an aggregate score of 4–6. On 13 June 2018, FC Amkar Perm announced that the Russian Football Union recalled their 2018–19 season license, making them ineligible for the Russian Premier League or Russian Football National League. As a consequence, Anzhi took Amkar's spot and was not relegated.
+Anzhi struggled again during the 2018–19 season, and following a 0–1 defeat to Arsenal Tula, their relegation back to the Russian Football National League was confirmed.On 15 May 2019, club's general director Absalutdin Agaragimov announced that the club failed Russian Football Union licensing for the 2019–20 season. The club had until the end of May to lodge an appeal. On 29 May 2019, Russian Football Union licensing department chief Yevgeni Letin announced that Anzhi has recalled their appeal and, as a result, will not compete in the second-tier Russian Football National League in the 2019–20 season. They had an option of applying for the third-tier Russian Professional Football League license or potentially declaring bankruptcy. On 26 June 2019, Anzhi confirmed that they had received a license to play in the Russian Professional Football League for the 2019–20 season, and that they were still unable to register new players due to outstanding debts. Their 2019–20 squad mostly included the under-20 players who played for their youth team in the previous season, with most first-team players moving to other professional teams, including several notable ones (Yury Dyupin, Vladislav Kulik, Andrés Ponce) who remained in the Russian Premier League.
+
+
+== Crest and colours ==
+
+The club's crest includes a yellow eagle in traditional Caucasian clothing with elements of the Dagestani flag.
+The club's name derives from the word Anzhi which means "pearl" in the Kumyk language. It was also the ancient name for the land around where Makhachkala is situated.
+In the 2013–14 season, they changed their kit sponsor from Adidas to Nike.
+
+
+== Stadium ==
+
+Due to the risk of possible armed conflict in Dagestan, the club's players primarily live and train at a village near Moscow, at a training base previously used by Saturn Moscow. The club fly in for home matches, which have a heavy security presence.The club's 28,000-seat Anzhi Arena was built in 2003, and due to its facilities is not used in European competition, for which Anzhi use the Lokomotiv Stadium in Moscow. A high-priority goal of Kerimov when he purchased the club was the construction of a new 40,000 seater ground.
+
+
+== Supporters ==
+Anzhi receive most of their support from the Northern Caucasian region, particularly from the city of Makhachkala. The club also enjoys support from fans scattered all over Dagestan, and the local area in general. The club is hated by some supporters of the Moscow-based clubs as well as Zenit Saint Petersburg, in part out of jealousy of the club's former wealth and also out of ethnic and religious animosity.
+
+
+== European competitions ==
+Anzhi participated in the 2001–02 UEFA Cup. Their opponents were Rangers of Scotland. Instead of usual home-and-away fixtures, UEFA decided to hold a single match in a neutral venue—the Polish Army Stadium in Warsaw—due to the unstable situation in neighbouring Chechnya. Rangers won the match 1–0.
+After finishing fifth in the 2011–12 Russian Premier League, Anzhi qualified for the group stage of the UEFA Europa League for the first time in the club's history, after eliminating Budapest Honvéd in the second qualifying round, Vitesse in the third qualifying round and AZ Alkmaar in the play-off round. However, they again had to play home matches away, this time at the Luzhniki Stadium, due to unrest in the city of Makhachkala. They finished second in group A behind Liverpool; both games between the two ended as 1–0 home wins. Liverpool, Anzhi and Young Boys took the top three positions in the group respectively with ten points each, and were ranked by their head-to-head record with fourth-placed Udinese; Anzhi were the only team in the group not to lose at home, having won all their home games in the group stage. Guus Hiddink's team were drawn with German side Hannover 96, who won group L. The Russians won the first leg 3–1 at the Luzhniki before a 1–1 draw in Hanover sent them through 4–2 on aggregate. They then faced Newcastle United in the next round, where Alan Pardew's men became the first team to deny Anzhi a home win in European competition. In the second leg away at St James' Park, Newcastle's Papiss Cissé headed home the winner in the last second to eliminate Anzhi; Mehdi Carcela-González had earlier been sent off for the club.
+
+
+=== Record ===
+1R: First round, 2Q: Second qualifying round, 3Q: Third qualifying round, PO: Play-off round
+
+Notes1 Only one leg was played, in a neutral venue in Warsaw, Poland, due to security concerns in Russia.
+
+
+== Honours ==
+Russian National League1999, 2009
+
+
+== Recent seasons ==
+
+
+=== Russia ===
+
+
+== Players ==
+As of 4 September 2019, according to the PFL official websiteNote: Flags indicate national team as defined under FIFA eligibility rules. Players may hold more than one non-FIFA nationality.
+
+
+=== Reserve teams ===
+
+
+== Records ==
+
+
+=== Top scorers by season ===
+
+
+== Notable players ==
+Had international caps for their respective countries. Players whose name is listed in bold represented their countries while playing for Anzhi.
+
+
+== Managers ==
+
+Information correct as of match played 5 December 2016. Only competitive matches are counted.
+
+Notes:P – Total of played matches
+W – Won matches
+D – Drawn matches
+L – Lost matches
+GS – Goal scored
+GA – Goals against%W – Percentage of matches won
+Nationality is indicated by the corresponding FIFA country code(s).
+
+
+== References ==
+
+
+== External links ==
+Official website<n>ROLF (Russian: Группа Компаний "РОЛЬФ") is a Russian group of companies, one of the biggest automotive dealers and vehicle importers in Russia, with its headquarters located in Moscow. Established on 5 August 1991. ROLF was one of the pioneers of the Russian automotive market, contributing to its development as a civilized market.
+
+
+== Management ==
+The company is owned by Cyprus trusts. Mr. Sergey Petrov left the company as its manager and shareholder in 2007 and completely transferred the ownership to Cyprus trusts.Since July 2013, the chief executive officer of ROLF has been Tatiana Lukovetskaya.
+The group consists of several business directions:
+
+ROLF Retail (ROLF dealerships), ROLF Finance & BlueFish (used cars sales) – Chief executive officer: Tatiana Lukovetskaya;
+ROLF Distribution of Mitsubishi (MMC Rus) — Chief executive officer: Naoya Takai;
+ROLF SCS (ROLF Logistic) — Chief executive officer: Alexandr Larin;
+
+
+== ROLF retail division ==
+The first ROLF dealership was opened in 1991 in Moscow. ROLF retail division now has 37 showrooms in Moscow and Saint Petersburg representing 17 foreign automotive brands (Alfa Romeo, Audi, Chrysler, Ford, Jaguar, Jeep, Hyundai, Land Rover, Lexus, Mazda, Mercedes-Benz, Mitsubishi, Porsche, Renault, Skoda, Toyota, Smart). It sells a range of services: car loans and insurance, trade-in, cars servicing, spare parts and accessories sales, long-term life insurance, etc.
+ROLF Retail also has its own loan and insurance agent – ROLF Finance, responsible for all the negotiations with banks and insurance companies as well as establishing F&I programs for all the ROLF clients in its dealerships.
+
+
+=== Blue Fish ===
+Blue Fish project, which is also the part of ROLF Retail, represents ROLF's centralized approach to used cars sales, launched in 2007. Currently Blue Fish works with used cars of all brands, including AvtoVAZ. Besides used cars, Blue Fish proposes loan programs, insurance products, used cars warranty and Road Assistance package. Blue Fish is based in all ROLF dealerships in Moscow and Saint Petersburg. Its website contains its database of cars on sale in all the retail locations.
+
+
+== MMC Rus ==
+MMC Rus is the exclusive distributor of Mitsubishi Motors in Russia and CIS countries executing all the functions of a national car distributor, providing the supply of cars and spare parts to the country, as well as warranty support, product planning, product homologation and certification, dealership network development, marketing and promotion. MMC Rus is 42% owned by ROLF Group.
+
+
+== ROLF SCS ==
+ROLF SCS is one of the leading logistic operators in Russia, providing integrated logistic services including warehousing, customs services, port facilities and railway transportation. ROLF SCS holds the rights for import of new automobiles through the port terminal “Pertolesport” in Saint Petersburg. Moreover, the company is also the owner of:
+
+Logistic terminal in Lobnya, for 5,000 cars (opened in 2009)
+Automobile terminal in Vostochny Port in Nakhodka (was founded in 2009)
+Terminal in Naberezhnye Chelny in collaboration with Sollers, which includes an area for the storage of almost 500 cars, and 20 road trains.
+Customs terminal “Elite- Trans” in Saint-PetersburgROLF SCS operates 250 of its own and 500 third-party trucks. ROLF SCS's biggest clients are VW Group, Porsche, Mercedes-Benz, Jaguar Land Rover, BMW, ROLF Import, GEFCO.
+
+
+== References ==
+
+
+== External links ==
+rolfgroup.com
+Rolf.ru (in Russian)<n>Igor Ivanovich Sechin (Russian: Игорь Иванович Сечин; born 7 September 1960) is a Russian official, considered a close ally and "de facto deputy" of Vladimir Putin. Sechin is often described as one of Putin's most conservative counselors and the leader of the Kremlin's Siloviki faction, a lobby gathering former security services agents. Until 21 May 2012, he served as Deputy Prime Minister of Russia in Vladimir Putin's cabinet and he is currently the Executive Chairman of Rosneft, the Russian state oil company. Sechin has been linked to the “siloviki” faction in the Kremlin, composed of ex-security services personnel who have entered Russian politics.
+
+
+== Career ==
+Igor Sechin graduated from Leningrad State University in 1984 as a linguist, fluent in Portuguese and French. In the 1980s, Sechin worked in Mozambique. He was officially a Soviet interpreter. From 1991 to 1996, he worked at St. Petersburg mayor's office, and became a chief of staff of the first deputy mayor, Vladimir Putin in 1994. From 1996 to 1997, Sechin served as a deputy of Vladimir Putin, who worked in the presidential property management department. From 1997 to 1998, Sechin was the chief of the general department of the main control directorate attached to the president, led by Putin. In August 1999, he was appointed head of the secretariat of the prime minister of Russia, Putin. From 24 November 1999 until 11 January 2000, Sechin was the first deputy chief of the Russian presidential administration.
+Between 31 December 1999 and May 2008, he was deputy chief of Putin's administration. In May 2008, he was appointed by President Dmitry Medvedev as a deputy prime minister in a move considered as a demotion. According to Stratfor, "Sechin acts as boss of Russia’s gigantic state oil company Rosneft and commands the loyalty of the FSB. Thus, he represents the FSB’s hand in Russia’s energy sector."Since 27 July 2004, Sechin has been the successful and influential chairman of the board of directors of JSC Rosneft, which swallowed up the assets of jailed tycoon Khodorkovsky's Yukos. He has additionally been president of Rosneft since May 2012.  Khodorkovsky has accused Igor Sechin of plotting to have him arrested and plundering his oil company: "The second as well as the first case were organised by Igor Sechin. He orchestrated the first case against me out of greed and the second out of cowardice."  In 2008, Mr. Sechin allegedly blocked the replacement of the AAR consortium with Gazprom in the TNK-BP joint venture.In 2008, Igor Sechin was involved with the BP oil company and did private negotiations with the BP's CEO Bob Dudley. In 2008, Hugo Chávez said that the idea for Venezuelan nuclear energy program came from Sechin. Sechin negotiated deals on weapons and nuclear technology deliveries to Venezuela. In July 2009, Sechin negotiated deals with Cuba that brought Russia into deep-water drilling in the Gulf of Mexico.Sechin also presides over the Board of Directors of the United Shipbuilding Corporation, and helped with negotiations with France over the purchase of four Mistral-class ships. Sechin argued that two ships should be constructed in Russia and two in France, as opposed to the initial offer that only one be constructed in Russia. Piotr Żochowski, of the Polish Center for Eastern Studies, argued that "it cannot be ruled out that Sechin's stance on this issue results from his personal financial involvement in the St Petersburg shipbuilding industry".On 20 March 2014, the United States government sanctioned Sechin in response to the Russian government's role in the ongoing unrest in Ukraine. The sanctions include a travel ban to the United States, freezing of all assets of Sechin in the United States and a ban on business transactions between American citizens and corporations and Sechin and businesses he owns.In December 2014, a CNBC article noted that Sechin is "widely believed to be Russia's second-most powerful person" after President Putin. In December 2017, The Guardian noted that Sechin "is widely seen as the second most powerful man in Russia after Vladimir Putin".Sechin was instrumental in the arrest and trial of Putin’s former minister of economy, Alexei Ulyukaev, charged and found guilty of soliciting a bribe from Igor Sechin. The verdict was delivered after hearing testimony from Sechin in a closed trial, and is another indicator, according to The Financial times, of the power wielded by Sechin in Russian politics.In November 2018, Sechin visited Venezuela to rebuke Venezuelan president Nicolas Maduro over failure to repay loans and delayed oil shipments. Also in November, Sechin released a statement at the first Russian-Chinese Energy Business Forum in Beijing, about increased levels of cooperation between Rosneft and Chinese owned energy companies, citing “increased protectionism and threats of trade wars” as a reason for the cooperation. Agreements of cooperation were signed between Rosneft and Chinese Hengli Group and include expansion in exploration as well as production and refining.
+
+
+== Personal life ==
+Igor Sechin is married, and has a daughter, Inga (b 1982). Inga married Dmitry Ustinov (b. 1979), a Russian intelligence agent and graduate of the FSB Academy and son of former Prosecutor General and current Plenipotentiary Envoy to the Southern Federal District Vladimir Ustinov, in 2003. Inga and Dmitry had a son on 4 July 2005. She divorced him and, later, she married Timerbulat Karimov (Russian: Тимербулат Каримов) (b. 1974), a former investment banker and senior vice-president of VTB Bank from October 2011 until February 2014. He is on the board of directors for the Russian Copper Company (Russian: АО «Русская медная компания») which is the third largest in Russia and owned by Igor Altushkin. Since September 2015, she is the only owner of the Moscow based company Khoroshiye Lyudi or Good People (Russian: ООО «Хорошие люди»), which on 4 December 2015, became a 40% owner of the Novgorod Agropark (Russian: ООО «Новгородский агропарк»), a turkey farm.After the demotion of Vladimir Ustinov in 2006, Sechin reportedly arranged the appointment of Alexander Bastrykin, another ally of his, as Chairman of the Investigative Committee of the Prosecutor General's Office in 2007 in order to retain his influence.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Biography, Lenta.ru (in Russian).<n>EuroChem (Russian: ЕвроХим) is a nitrogen and phosphate fertilizer company headquartered in Zug, Switzerland. It has mining activities in Kovdor, Murmansk Oblast, Russia, and in Kazakhstan, as well as oil and gas operations in Novy Urengoy, Yamalo-Nenets Autonomous Okrug, Russia. The company's production facilities are located in Russia, Belgium and Lithuania.According to the company, it is the largest producer of mineral fertilizers and ranks among the top three European and top ten global producers by both nutrient capacity and profitability. In 2013 EuroChem had revenues of US$5.6bn, of which nitrogen US$3.2bn and phosphate US$1.8bn.
+
+
+== Assets ==
+EuroChem produces primarily nitrogen and phosphate fertilizers, as well as certain organic synthesis products and iron ore. It moved its headquarters to Zug, Switzerland, in 2014 and operates production facilities in Russia and Western Europe and employs more than 20,000 employees globally.Nitrogen (natural gas, ammonia, nitrogen fertilizers, and organic synthesis products):
+
+Nevinnomysskiy Azot
+Novomoskovskiy Azot
+EuroChem Antwerpen
+Severneft UrengoyPhosphates (apatite, iron ore, phosphate fertilizers, and feed phosphates):
+
+Phosphorit
+EuroChem-BMU
+Lifosa ABPotash, EuroChem is currently developing 2 greenfield projects in Russia: 
+
+EuroChem-VolgaKaliy (Gremyachinskoe deposit, Volgograd region)
+EuroChem-Usolskiy Potash Complex (Verkhnekamskoe Deposit, Perm region)OTHER:
+Distribution Segment 
+
+Owned and independent distribution network in Russia and CISSales 
+
+EuroChem Agro
+EuroChem Trading – Switzerland
+EuroChem Trading – USA
+EuroChem Trading – BrazilLogistics 
+
+Port, rail, sea freight
+
+
+== Ownership ==
+EuroChem is 90% owned by Andrey Melnichenko, who ranks 139th in the Forbes world billionaires list 11th wealthiest in Russia) with his personal wealth of US$10.3bn as of July 2016. with the remaining 10% owned by EuroChem Group AG CEO, Dmitri Strezhnev. Melnichenko also has a large stake in Russian coal producer SUEK.
+
+
+== Business ==
+
+
+=== Acquisitions ===
+
+
+==== Murmansk Commercial Sea Port ====
+On 24 April 2013 EuroChem finalised the acquisition of a 47.67% interest in the share capital of OJSC "Murmansk Commercial Seaport" represented by 53,943 voting shares for 3,113,859,000. The Group made a prepayment of 2,522,755,000 for the acquisition of a 38.62% interest representing 43,703 voting shares in December 2012 and in April 2013 additionally acquired a 9.05%, interest representing 10,240 voting shares, for 591,104,000. Russian Financial Control Monitor on 26 April 2013 quoted EuroChem's CEO who commented on the transaction and said that "the price is comparable to recent privatisation deals of similar assets and the purchase was made in the open market".
+The privatisations of the port began in late 2012, with SUEK – a mining company controlled by Andrey Melnichenko – acquiring a 24.95% stake.  At the beginning of April 2013 it purchased a further 24.91% increasing its stake to 49.86%.  As a result of EuroChem's acquisition the two companies controlled by Melnichenko own 97.53% of the Murmansk port.  On 26 April 2013 the Russian information agency Interfax reported that EuroChem plans to make a mandatory offer to purchase the remaining shares from minority shareholders thus becoming a majority owner of the port.
+
+
+==== EuroChem Agro (K+S Nitrogen) ====
+In July 2012, EuroChem completed the acquisition of K+S Nitrogen, a company marketing nitrogenous fertilizers with a focus on major customers in agriculture and special crops such as fruits, vegetables and grapes. In addition to the fertilizers produced by EuroChem Antwerpen and delivered by BASF, K+S Nitrogen also marketed the goods of other European fertilizer producers. K+S Nitrogen was subsequently renamed EuroChem Agro and is based in Mannheim, Germany.
+
+
+==== EuroChem Antwerpen (BASF fertiliser assets) ====
+BASF sold its fertilizers activities in Antwerp, Belgium, to EuroChem in March 31, 2012.
+
+
+==== Severneft-Urengoy ====
+On 19 January 2012 EuroChem acquired Severneft-Urengoy, an oil and gas operator with exploration licenses for gas fields in the Yamalo-Nenets Autonomous District in the North of Russia for US$403 million. The acquisition is part of the company's back integration  strategy to meet raw material requirements with its own supply.  At full capacity, Severneft-Urengoy could produce enough natural gas to meet close to a quarter of EuroChem's annual requirements. Natural gas is the primary raw material used to produce ammonia, the main building-block for nitrogen-based fertilisers.,
+
+
+==== Karbamid 2 ====
+In March 2008 EuroChem purchased a carbamide production unit, Karbamid 2, from Azotara Pancevo for €32.5 million.  The plant was subsequently disassembled and shipped to Russia.  The €32.5 million proceeds from the sale of the fertiliser plant are reported to have gone missing.  Azotara-Pancevo's former management is currently under investigation for fraud and mismanagement in relation to the company's privatisation and sale of Karbamid 2 to EuroChem.  Charges of organised criminal activity have been lodged against the consortium's management and various allegations of fraud are being investigated.  An international arrest warrant has also been issued for the Lithuanian Chief Financial Officer who signed off Karbamid 2's sale.
+
+
+==== OJSC Sary-Tas ====
+In November 2008 EuroChem acquired 56.33% of the Kazakh owned share capital of OJSC Sary-Tas in Zhambyl region (southern Kazakhstan).  The phosphorite pellets production plant ceased production in 1993. EuroChem says it is building a new plant on the site investing over US$2.5 billion.  Andrey Melnichenko has asked the Kazakh government to provide cheap gas for the project.
+
+
+=== Joint ventures ===
+In July 2013, EuroChem announced plans to establish a joint venture with Chinese fertiliser producer Migao in order to increase its presence in Asia. The joint venture was established in November that year and was expected to produce 60,000 tonnes of potassium nitrate and up to 200,000 tonnes of chloride-free complex fertilizers. The 50:50 joint venture also planned to launch new production units in 2014.In October 2019, EuroChem signed a memorandum of intent with Maire Tecnimont for a potential new urea and ammonia production facility in Kingisepp. Maire Tecnimont is undertaking "preliminary engineering and site surveying work" in order to ascertain the project's viability.
+
+
+== Reorganisation ==
+On 5 December 2012 Prime News reported that EuroChem planned to set up another unit outside of Russia, acting as the guarantor of the company's Eurobonds and which could later operate the company's potash and gas projects. Referred to as "Topco" (i.e. top holding company) it would own at least 70% of EuroChem's debt and thus become a core unit in the corporate structure of the group.On 3 October 2014, EuroChem Group AG was established, a new holding company for the Group. The new holding company is a wholly owned subsidiary of EuroChem Group SE (Cyprus) and based in Zug, Switzerland. The new EuroChem Group AG Board of Directors was formed in April 2015.
+
+
+== HSE Issues ==
+
+
+=== Chemical spillage ===
+In 2010 EuroChem began constructing a bulk port terminal in Tuapse in the south of Russia. The local environmental organisations accused EuroChem of federal law violation since the construction was taking place in a residential zone. In March 2010, there were reports of a spillage of chemicals at EuroChem's Tuapse terminal while EuroChem was testing the loading of chemical fertilizers onto a tanker.  The spillage was later blamed by ecologists for the death of four dolphins at Sochi. Local residents reported a substantial deterioration of air quality claiming that this resulted from the emission at the EuroChem terminal.  The local resident's concerns soon led to protests in May 2010 of around 3,000 people against EuroChem. EuroChem denied the company bore any responsibility for the alleged deterioration of air quality in the city.  In spite of the denials, EuroChem CEO Dmitri Sterzhnev admitted at a press conference following the protests, that during the test drive of the terminal, the company had in fact violated administrative law and had paid a fine as a result. In June 2011 information about the protests reached Medvedev, who was President at the time and he personally ordered to postpone the launch of Eurochem's terminal in Tuapse.A series of lawsuits was brought by environmental organizations as well as by local residents in district and regional courts. Ultimately the Krasnodar regional court, supported by an expert from the regional unit of Rospotrebnadzor, the state environmental watchdog, ruled in August 2011 that the construction was lawful. The construction of the terminal has now been completed and the port is operating.
+
+
+=== Baltic Sea ===
+According to preliminary Finnish research there is a phosphorus leak in the Luga River in the volume of 1,000 tonnes annually. It may be from the gypsum waste piles of the EuroChem factory near Kingisepp, although EuroChem has denied this. In April 2012, Russian officials arrested environmental expert Seppo Knuuttila, who had been working on behalf of the Finnish Environment Institute and HELCOM. He was interrogated for a total of fourteen hours by the officials, who demanded to have his computer at customs. Mr. Knuuttila was examining Luga river phosphate content, as agreed.The findings of an investigation by HELCOM, the international ecological association, found Phosphorit in all likelihood responsible for the pollution.  Specifically HELCOM accused EuroChem of improperly monitoring phosphorus runoff from its Phosphorit facility, an issue that was also discussed in the Finnish press in January 2012.  The Finnish-Russia cooperation on reducing phosphorus in the Baltic Sea is ongoing indicating the ecological problem is still present.
+The Helsinki-based John Nurminen Foundation, a Finnish foundation specialized in Baltic Sea protection, has been working with EuroChem on the Baltic Sea phosphorus monitoring and reduction program.
+In June 2012, EuroChem and the John Nurminen Foundation agreed to jointly appoint an independent organization to assess the effectiveness and sustainability of the surface water run-off treatment system which was constructed at the Phosphorit factory in March 2012. The system was constructed to purify phosphorus containing surface water run-off, originating in the area adjacent to the factory. In July 2013, the John Nurminen Foundation and EuroChem jointly appointed Atkins, a design, engineering and project management consultancies, to assess a surface run-off treatment system near the Phosphorit fertilizer facility and to conduct monitoring of the Luga River. Atkins will also monitor phosphorus concentrations in the Luga River upstream and downstream of the factory for one year, and calculate river phosphorus loads to the Baltic Sea.After having become concerned about the condition of the Baltic Sea in 2004, the Board of the John Nurminen Foundation consulted leading experts on the marine environment to find out if the Foundation could play a concrete role in protecting the Baltic Sea. According to the experts, the fastest and most cost-efficient method of improving the condition of the Baltic Sea would be to intervene in the operation of wastewater treatment plants located in its catchment area by intensifying their phosphorus removal. The three largest wastewater treatment plants in St. Petersburg were chosen as the first target. By making their phosphorus removal more effective, the Gulf of Finland's phosphorus load usable for algae can be reduced by almost 27%. According to the Finnish Environment Institute, this is the quickest and most cost-effective way to improve the open sea condition of the Gulf of Finland, when comparing all possible water protection measures in Finland and Russia. The measure will visibly reduce the algae growth in the Gulf of Finland after just a few years, provided that the other surrounding circumstances do not change considerably.
+
+
+=== Worker fatalities ===
+In May 2009 a warehouse for mineral fertilizer at the Tuapse Buker Terminal partially collapsed killing two contractors present. An investigation into the accident was launched by regional authorities.
+
+
+=== Fires ===
+In July 2012, two fires took place at the EuroChem's Nevinnomysski Azot, which is based in the Stavropol region in South-West Russia and primarily produces nitrogen-based fertilizers.  According to Russian media no toxic emissions or injuries emanated from the fires.
+
+
+== Litigation ==
+
+
+=== Shaft sinkers ===
+Following the early termination of a shaft construction contract, in October 2012 EuroChem filed a claim against Shaft Sinkers (Pty) Ltd. (Shaft Sinkers), seeking US$800 million compensation for the direct costs and substantial lost profits arising from the delay in commencing potash production. This was a result of the alleged inability of Shaft Sinkers to fulfill its contractual obligations and complete the construction of the Gremyachinskoe cage shaft, primarily due to problems with the grouting technology. In October 2012 Shaft Sinkers presented an interim claim letter to the Group claiming compensation of US$45 million in costs incurred by them up to and inclusive of 30 September 2012 in connection with the termination of the construction contract. The above disputes are subject to arbitration as specified in the contract. An outstanding advance given to Shaft Sinkers of 495,387 thousand was written off during the nine months ended 30 September 2012. As well, due to the failure of the grouting technology employed in the cage shaft construction, expenses previously capitalised, amounting to 3.116 billion, were written-off during the nine months ended 30 September 2012.EuroChem lodged claims in the Dutch courts accusing International Mineral Resources (IMR), wholly owned by the ENRC trio of Alexander Machkevitch, Patokh Chodiev and Alijan Ibragimov, of "blatant fraud, exacerbated by bribery". EuroChem had previously said it was claiming damages of $800m (£500m) from its supplier Shaft Sinkers, which is 48% owned by IMR, following problems with a $2bn Russian potash mining project. In the new case, the fertiliser group alleges that an IMR executive bribed a EuroChem employee with hundreds of thousands of roubles to cover up the alleged ineffectiveness of Shaft Sinkers' work. It also claims IMR facilitated the concealment of a report that questioned whether Shaft Sinkers's sealing technology could be effective on the potash project.EuroChem  obtained an interim freezing order covering more than €886.5m of assets belonging to International Mineral Resources (IMR), a company owned by the founders of ENRC. The order was granted pending a full trial by a Dutch court as part of a civil suit filed by EuroChem. It claims damages of €660m over fraud allegedly committed by an employee of Shaft Sinkers, the South African mine shaft excavator company in which IMR holds a 48 per cent stake.Shaft Sinkers has dismissed as "nonsensical" the claim brought by EuroChem, Russia's third-largest fertiliser firm over the flooding of a mineshaft that delayed a $4 billion potash project.
+The case is ongoing.
+
+
+=== Severneft-Urengoy ===
+On 19 January 2012 EuroChem acquired Severneft-Urengoy, an oil and gas operator with exploration licenses for gas fields in the Yamalo-Nenets Autonomous District in the North of Russia for US$403 million.In March 2013 "Reverta AS" filed a claim against LLC "NK Severneft" and LLC "Severneft-Urengoy" contesting the property purchase and sale transactions made between these two entities in 2011,
+preceding the acquisition of LLC "Severneft-Urengoy" by the Group. As part of the proceeding, the court had issued a ruling to impose injunctive relief restricting the ability of LLC "Severneft-Urengoy" to dispose of certain property. The Group contested the restriction and in June 2013 the arbitration court dismissed the injunction.
+The case had no bearing on the Group's activity.
+
+
+=== Monopoly claims ===
+The EuroChem owned Nevinnomysskiy AZOT plant was fined by the Federal Anti-Monopoly Authority in 2007 for exploiting its dominant position as the owner of the electricity network in Nevinnomyssk and depriving other companies of access.
+
+
+=== Ukraine anti-dumping duties ===
+In September 2019, the WTO Appelate Body ruled that anti-dumping duties imposed by Ukraine on ammonium nitrate imports from Russia are violating WTO rules, specifically Article 5.8 of the WTO Anti-Dumping Agreement. The court thereby upheld Russia's claim that Kiev should have excluded EuroChem, arguing that its dumping had been minimal.
+
+
+== Financing ==
+In April 2013 the Russian newspaper Vedomosti reported that EuroChem was looking to take a loan of US$700 million to finance its current development projects.  The loan will reportedly be issued by a consortium of Russian and foreign banks.On 27 August 2013 EuroChem announced that it has signed a new debut US$1,300,000,000 unsecured loan facility on a club basis. The proceeds were used to pay down the outstanding amount under EuroChem's 2011 US$1.3 billion pre-export facility.In February 2014 EuroChem reported its net profit fell 62 percent in 2013 to 12.3bn (US$350 million) due to weak prices in the fertiliser markets.
+
+
+=== Initial public offering ===
+In March 2013, Andrey Melnichenko revealed that EuroChem is planning an IPO in the next few years.  The chairman said the company will launch an IPO after it had completed the development of its potash assets and suggested a date at the beginning of 2016.  EuroChem will set the parameters of the offering in 2015 but Melnichenko said that the stake is likely to exceed 20%.Chief financial officer Andrey Ilyin has said EuroChem plans to issue about 25% of its shares in London in 2017 or 2018.
+
+
+== Peers ==
+The Mosaic Company
+Potash Corp
+K+S
+CF Industries
+Uralkali
+Phosagro
+Yara International
+Israel Chemicals
+Agrium
+
+
+== See also ==
+Andrey Melnichenko
+
+
+== References ==<n>M.video is the largest Russian consumer electronic retail chain by revenue and the first and the only publicly traded company in its market sector, listed in Moscow Exchange.
+
+
+== Overview ==
+The company started its operations in 1993 in Moscow. M.video runs over 330 stores in 144 Russian cities as well as 38 on-line internet stores. The total space of M.video stores accounts to 785.000 sq. m.
+M.video offers its customers approximately 20,000 SKUs of audio/video, digital, small and large home appliances, media and entertainment products as well as accessories. The company operates its stores under a uniform format and a specially design store concept to provide customers with approximately 2,000 square meters of easy-to-navigate shopping space that also offers information about the products and upcoming trends.
+
+
+== History ==
+
+
+=== 2012 ===
+M.video sales increased by almost 20% to 158 billion Russian rubles (RUB), including VAT in FY 2012. Growth in revenue was mainly driven by M.video's opening of 42 stores, 9.3% increase in like-for-like stores sales including a 60% increase in online sales. The Group's gross profit increased by 20% to 33 billion RUB in 2012 (27.5 billion RUB in 2011) or as a % of revenue reached 24.7% (24.6% in 2011).
+
+
+=== 2013 ===
+M.video opened 40 new stores in 2013 (17 new stores in Q4 2013), while closing 3 stores. The total number of the Company's outlets reached 333 stores as of  31 December 2013 located in 144 cities of Russia. The selling space of M.video stores amounted to 582,500 sq. m, while the total space amounted to 785,000 sq. m as of 31 December 2013, demonstrating an 8.5% increase compared to FY 2012 results.
+
+
+== References ==
+
+
+== External links ==
+Official site
+Investor english site<n>PhosAgro  is a Russian chemical holding company producing fertilizer, phosphates and feed phosphates. The company is based in Moscow, Russia, and its subsidiaries include Apatit, a company based in the Murmansk Region and engaged in the extraction of apatite rock.
+Phosagro is one of the world’s leading producers of phosphate-based fertilisers. The Company is Europe’s largest producer of phosphate-based fertilisers, the world’s largest producer of high-grade phosphate rock and the world’s second largest producer (excluding China) of MAP and DAP (according to Fertecon), Russia’s only producer of feed monocalcium phosphate (MCP), and also the sole producer of nepheline concentrate in Russia.
+In 2016, PhosAgro was ranked as among the 17th best out of 92 oil, gas, and mining companies on indigenous rights and resource extraction in the Arctic.
+
+
+== Ownership history ==
+The original owner of Phosagro's assets (most notably Apatit, a Soviet era mining company) was now exiled Russian billionaire Mikhail Khodorkovsky's via his company, Menatep. 
+In 2003, Mikhail Khodorkovsky was arrested for tax evasion and fraud and the charges against him were ostensibly connected to Menatep's purchase of shares in Apatit. However, many also saw the charges as punishment for publicly clashing with Vladimir Putin.During Khordorkovsky's trial, the state seized Menatep's stake Apatit. In 2004, Andrey Guryev, who at the time ran Apatit on behalf of Khordorkovsky's Manatep and was also a Russian senator, wrote a message to Khordorkovsky in prison to convince him to sell his remaining 50% stake in Phosagro to Guryev. Khordorkovsky allegedly sold his shares to Guryev for a low price.In July 2011, Phosagro raised $538 million in a London IPO.In 2012, Phosagro paid $344 million at a state tender to buy back a 26.7% share in Apatit, bringing the company's ownership to 76%.As of 2012, Andrey Guryev and his family owned 65.47% of Phosagro via various trusts.PhosAgro is 19.35% owned by Vladimir Litvinenko, who oversaw Vladimir Putin's doctoral thesis in 1996.
+
+
+== Subsidiaries ==
+Apatit
+Ammophos
+Cherepovetsky Azot
+BMU (Balakovskyie Mineralnyie Udobrenia)
+PhosAgro-Trans
+
+
+== Controversy ==
+In June 2017, Igor Sychev, a former head of tax department of Phosagro, presented a claim against Phosagro to the London High Court of Justice. In his claim he demanded 1% of the company’s shares or their value in cash (approximately $55 million, and also $8 million in cash to serve as his remuneration for having previously defended PhosAgro interests in court).According to Sychev's statement, the conflict started after he didn't receive the agreed remuneration for defending Phosagro's interests in court.
+The defendants in the London court case are Andrey Guryev, PhosAgro's Vice president of the Board of directors, and another member of the board Igor Antoshin, together with some offshore companies based in Seychelles and Belize. A London judge has given permission to open proceedings against the defendants.In October 2019, another lawsuit was launched against Phosagro in the London High Court. Alexander Gorbachev, a Russian businessman and former senior executive at Phosagro, is suing the company for what he alleges is his rightful share of the business, a stake that is worth £1 billion at today’s market value. The full trial will be heard in the High Court in 2020-2021.
+
+
+== References ==
+
+
+== External links ==
+Official Website
+PhosAgro on Facebook
+PhosAgro on Twitter 
+PhosAgro's channel on YouTube
+Website of Igor Sychev<n>Sosnóvka (Russian: Сосно́вка, means Piny Village) is a selo and the administrative center of Sosnovskiy Selsoviet (rural settlement "Sosnovskiy Selsoviet") of Bekovsky District in Penza Oblast, Russia.
+The selo had 10 peasant (farmer) farms in 1998. It also had 580 farms and 1380 inhabitants at 1 January 2004. As of 2015 it has less than 1000 inhabitants. There are more than 700 households, many of them abandoned.
+There are Vertunovskaya railway station with station-house (Open JSC Russian Railways, Pochtovaya st.), a post office (office of Federal state unitary enterprise "Russian Post", Pochtovaya st., 88), telegraph, telephone, first-aid and obstetric point, ambulance station attached to railway station, secondary school (municipal educational institution Sosnovka secondary comprehensive school, муниципальное образовательное учреждение средняя общеобразовательная школа с. Сосновка, Shkol'naya st., 1) with 132 pupils in 2015, library, five shops, railway club, a branch of Open JSC Sberbank of Russia, a monument to soldiers who perished in the Second World War. The selo also has a network gasification and centralized water supply.
+Sosnovka has Vertunovskaya railway station of Tambov–Rtishchevo line of South Eastern Railway. There is also railway communication with Bekovo on Vertunovskaya–Bekovo railway branch (Bekovo branch).
+Bekovo–Sosnovka–Varvarino asphalt route of a regional significance passes through the territory of Sosnovskiy Selsoviet. Asphalt road of 600 meters (2,000 ft) length goes to the selo.
+Sosnovskiy Selsoviet administration is located in Sosnovka at: Tsentral'naya usad'ba ("Central farmstead") st., 6, s. Sosnovka, Bekovsky District, Penza Oblast, Russia, 442950 (ул. Центральная усадьба, 6, с. Сосновка, Бековский район, Пензенская область, Россия, 442950). The head of Sosnovskiy Selsoviet is delegate of Committee of local self-government of Sosnovskiy Selsoviet Morozova Elena Aleksandrovna. Since 2014 the head of Sosnovskiy Selsoviet administration is Vyacheslav Anatol'yevich Markin (Russian: Вячеслав Анатольевич Маркин).
+
+
+== Geography and climate ==
+Sosnovka is located in South-Western part of Bekovsky District in Penza Oblast, 700 kilometers (430 mi) south-east of Moscow, 195 kilometers (121 mi) south-west of Penza (administrative center of the oblast) and 13 kilometers (8.1 mi) south-west of Bekovo (administrative center of the district) along Vertunovka – Bekovo railway branch.
+The selo is located in the Western part of the Volga Upland, in the zone forest steppe terrestrial ecosystem, in the first agroclimatic area of the oblast, which is characterized by enough moistening at hydrothermic coefficient 1.0 – 1.1. The natural vegetation: forests, meadow drains, bushes, swamp vegetation.
+The climate is temperate-continental at an average temperature +20°С of June, and −12°С of January.
+The selo is located in the Khopyor River basin. The distance to the Khopyor is 2 kilometers (1.2 mi). To the east of the selo the Mitkirey River flows from the North to the South. The Sosnovochka River (means Small Piny River) flows through the selo from the West to the East. Both rivers are tributaries of the Khopyor.
+
+
+== History ==
+There are a Bronze Age matted burial mound height 2.5 meters (8 ft 2 in) in 1.5 kilometers (0.93 mi) to the West from the selo; and a Bronze Age ploughed up burial ground of three mounds in 3 kilometers (1.9 mi) South-West from the selo.
+According to local legend, the name of the selo came from a large lake surrounded by pine trees. Definitely one can only say this is area of pinewoods.
+
+
+=== 18th century (Russian Empire) ===
+Three settlements were founded on the place of present-day selo in the early to the middle of the 18th century, before 1721:
+
+selo Rozhdestvenskoye (Russian: село Рождественское, "Christmas Village"), or Sosnovka (Russian: Сосновка, "Piny Village"), founded by landlord colonel (polkovnik) prince (knyaz) Fyodor Grigor'yevich Tyufyakin (Russian: Фёдор Григорьевич Тюфякин); 84 "census souls" were in 1747
+sel`tso Rozhdestvenskoye (Russian: сельцо Рождественское), or Mitkirey (Russian: Миткирей), founded by landlord prime-major of the 1st Moscow Regiment Pyotr Grigog'evich Plemyannikov (Russian: Пётр Григорьевич Племянников); 88 "census souls" were in 1747
+sel`tso Rozhdestvenskoye, or Sosnovka, or Mitkirey, founded by Cathedral of the Annunciation, Moscow; 288 "census souls" were in 1747.Peasants came from Nizhny Lomov, Penza, Shatsk, Moscow, Saransk, Yaroslavl, Simbirsk districts (uyezds). 460 "census souls" were in 1747 in all. In 1747 these three settlements were in Zaval'niy stan of Penza District (Uyezd).
+In 1780 these settlements were included in Serdobsk District (Uyezd) of Saratov Governorate (Guberniya). It was a rich trade place.
+According to the map of General Land Surveying of 1790 Two settlements were situated on this place in the late of the 18th century:
+
+selo Rozhdestvenskoye, or Vlasovka; it was a mistake of the map-maker, correctly is Sosnovka
+selo Troitskoye (Russian: село Троицкое, "Trinity Village"), or SosnovkaIn 1795 selo Troitskoye, or Sosnovka consisted of three parts:
+
+estates of economic peasants 181 farmsteads, 758 "census souls"
+estate of lieutenant (poruchik) Ivan Andreyevich and Guards ensign (praporshchik) Nikonor Andreyevich, princes Divletkildeyevy, 42 farmsteads, 152 "census souls"
+estate prince (knyaz) of Sergey Fyodorovich Golitzyn, 17 farmsteads, 89 "census souls".
+
+
+=== From 19th century to 1917 (Russian Empire) ===
+In 1811 one part of the selo was inhabited by state peasants (677 "census souls"), another part by praedial serf of general-major Sergey Fyodorovich Golitzyn (89 "census souls" on 586 desyatinas and of princes Ivan Andreyevich и Nikonor Andreyevich Divletkildeyevy (152 "census souls" on 1219 desyatinas).
+Prior to the Abolition of Serfdom (1861) one part of selo Troitskoye belonged to prince N. N. Divlet-Kil'deyev. There were 105 "census souls" of peasants, 8 "census souls" of house-serfs, 31 ½ impost units, tyaglo (in corvee labour). Peasants used 23 farmsteads on 12,6 desyatinas of farm land, 255,8 desyatinas of ploughed fields, 29 desyatinas of hayfields. Landlord had 304 desyatinas useful land, including 152,4 desyatinas of forest and bushes. In 1859 there were fair and market. At Eastertide people saluted with gun by tradition.
+After Abolition of Serfdom former landlord's peasants redeemed the land.
+Up to collectivization (1928—1937) peasant community divide into three associations ("societies"):
+
+the 1st of former peasants of landlord Prozorovskiy-Golitzyn
+the 2nd of former peasants of Divletkil'deyev and Artsybashev
+the 3rd of former state peasants.By the end of the 19th century were made new streets. About 1872 was made Latyshovka street (nowadays Sadovaya, "Garden" street). According to local legend, the name of the street came from certain Latvians, who had settled on this place. Nowadays Khopyornaya (Khopyor) street was called Nakhalovka ("Impudent") st., because a certain man settled without permission ("impudently") near forest. Later it was renamed to Khopyornaya, because it is situated near the Khopyor River.
+There were water and wind mills, well-developed animal husbandry, pottery and tanning industry in Bekovo region, and the waterway on the Khopyor River. Landowners and industrialists Ustinovs, who owned many lands in Bekovo region, have vast contacts in trade and industry. All that facilitated development of trade in Bekovo region and communication with other places.
+In 1871 railroad and Vertunovskaya railway station were built (see below).
+Since 1877 the selo had been the center of volost' of Serdobsk District (Uyezd). There was volost' administration, 376 farmsteads, one church, 5 shops, market on Fridays.
+In 1903 railway lunchroom and railway club-house ("people's house") were opened. In 1911 in the selo there were 642 farmsteads, one church, schools (see below), post-and-telegraph office, market, machine and tractor station, mill and brickworks.
+
+
+=== The church ===
+The church was built in 1880 in the geographical center of the selo on the upland near the cemetery. It was built from pinewood The church was visible from afar. The house of priest and deacon was near the church. The church burned down in 1903. The cause of the fire is unknown. The church was built again by insurance premium in 1915 and dedicated in June 27. The church might be destroyed in the first decades of Soviet Period.
+
+
+=== Soviet Period (Soviet Russia and the Soviet Union), 1917–1991 ===
+After October Revolution (1917) peasants worked at kolkhozes, brickworks and railroad. Many people worked in town Rtishchevo. In 1921 there was big fire, Bol'shaya ("Big") street had burnt down. Many houses started to be built on Latyshovka, Beryozovka ("Birch"), Nakhalovka, Bol'shaya and Soviet streets. There were an ambulance station and pharmacy. Later the ambulance station attached to the Vertunovskaya railway station was opened. About 1930–1932, a maternity hospital attached to railway ambulance station was opened. Also, there were a post office, market, mill, granary, vegetable store cellar, liquor shop, railway lunchroom and railway club-house ("people's house").
+During Second World War about 1091 men were drafted to Soviet Army from Sosnovskiy Selsoviet. More than 400 of them never came back. All men, who could hold a rifle, went to the battle-front, who could hold a rifle. People went both by summons and voluntarily. The Germans bombed Liski, Balashov, outskirts of Rtishchevo and Saratov. Wounded soldier were conveyed through military area on railroad to military hospitals in Bekovo, Sakhzavod (settlement of sugar factory) and Zubrilovo (in the former estate of princes Prozorovskiy-Golitzyns).
+In 1967 house of culture, office of Sosnovskiy sovkhoz (state farm; see below) and lunchroom were built; water pipe was constructed in the houses near the railway station. In 1968 the monument to the fallen warrior-fellow-villagers was erected. In 1974 rural palace of culture was opened. There was a fishing artel' in the selo. The fish from the Khopyor River was supplied to state shops in the selo.
+
+
+=== Schools ===
+In 1911 there were parochial school and zemstvo school with two classes in the center of the selo. In 1916 in zemstvo school there were 122 pupils and 3 teachers.
+Right after October Revolution (1917) a new primary school was opened. It was situated in the former house of priest and deacon. Fire-tower was situated near this place.
+In Soviet Period there were three primary schools:
+
+in the Barskaya ("Barin's") street (in the former house of mistress of landlord Tyufyakin)
+in the center of the selo, it was the former zemstvo school
+in Zalinia, in the Pochtovaya ("Postal") street, it was attached to railway organization.In 1930 primary/secondary school was opened in Zalinia, it had with 7 grades and called school of peasant youths. It was situated in two former buildings of landlord Smirnov. Later the third building was made. Pupils were also from all of the local primary schools: from the settlements Kryukovka, Vlasovka, Malyonovka, Podsot, Sennoy Ovrag ("Hay Ravine"), Pervoye and Vtoroye Otdeleniye (settlements of the First and the Second branches of Sosnovskiy sovkhoz) - there were many children.
+Children of the selo also learned in the secondary school of Sakhzavod, opened in 1955. After Second World War shortage of labour was, and women were called to renew destroyed equipment. Therefore, nursery and kindergartens was opened. The nursery was opened in 1948 and was attached to selsoviet. It was situated in private house in the Bol'shaya street. To 1956 building for nursery was made. In 1967 nursery-kindergarten attached to Sosnovskiy sovkhoz was opened. About 1970s nursery-kindergarten № 120 was opened, it was attached to railway station and situated in the building of the former school № 86 attached to railway organization.
+
+
+=== Kolkhozes and Sovkhoz "Sosnovskiy" ===
+In 1923 some inhabitants were to resettled to khutor (hamlet) near the forest, where distillery of Smirnov was situated. Khutor was named Krasnyy ("Red"). It was a lot of vacant lands, therefore farming artel' "Krasnyy Khutor" was established. Farming artel' was organized by twenty-five-thousander Nikolay Vasil'yevich Lizunkov. In 1929 the artel' got a first tractor Fordson. In 1930 was established large Kolkhoz of Kalinin, including Sosnovka and village Sennoy Ovrag. Chairman of the kolkhoz was twenty-five-thousander I. D. Kalinkin. Since 1955 Sosnovka became a central farmstead of Kalinin Kolkhoz. Later the Kolkhoz of Voroshilov and Kolkhoz "Pobeda" ("Victory") were established; they included some settlement: Malyonovka, Podsot, Vlasovka, Soglasovka, Kryukovka. Kolkhozes existed up to 1959. Kolkhozes included farms. One of the farms was situated between Big st. and Kuznechnaya ("Blacksmith's") st. near the dairy point.In February 1960 kolkhozes were united in Sovkhoz "Sosnovskiy". In 1967 the building of mechanized thrashing floor and warehouses at Tsentral'naya usad'ba ("Central farmstead") st. Since 1972 Sosnovka became a central farmstead of the sovkhoz. Sovkhoz specialize in production of grain, meat, milk and sugar beet. There were separator point, power-saw bench, forge workshop and repair workshop of agricultural machinery.
+
+
+=== Railroad ===
+In 1871 railway line Umyot - Atkarsk and Vertunovskaya railway station were built (the name Vertunovskaya is from neighbour selo Vertunovka). Vertunovskaya station were included in Ryazan-Ural Railway. Towards 1881 the railway station was state. In January, 1892 года government give the railroad to private company. Large company Joint-Stock Company of Ryazan-Ural Railway was found. The railroad contributed to the development of Sosnovka.
+Sosnovka—Bekovo (Vertunovskaya-Bekovo) railway branch was built by industrialists Ustinovs. It was put in operation in 1874. Bekovo branch was the first in Russia, which was built at private expense. Ministry of Finance and Ministry of Communications couldn't decide, to give license for the building or no. The license was received on February 22, 1874, but by that time the branch was already built. In early March the railway communication began. Ustinov put the branch into operation to Tambov-Saratov Railway. The branch was leased by state. Later Tambov—Saratov Railway became state, and Ryazan-Ural Railway was found. State Kozlov-Saratov line was passed to Ryazan-Ural Railway. State bought Bekovo branch for 800 thousand rubles and it was passed to Company of Ryazan-Ural Railway. When Bekovo branch was gone into operation and trade grew, including corn-trade, Bekovo became the largest trading centre in Serdobsk District (Uyezd).
+After construction of the railway Sosnovka grew quickly. Large part of the population worked at construction and service of railway tracks.
+After October Revolution semi-automatic block system was brought in at Vertunovskaya station, railway tracks were reconstructed. Since the sugar factory (Sakhzavod) went into operation in 1933–34, density of freight traffic grew. Railwaymen contributed greatly to victory in the Second World War (1945). Railroad engineers Aleksandr Nikitovich Shchavelev and Dmitriy Ivanovich Tarantin, who were born in Sosnovka, fell in pursuance of military missions. There was large goods traffic on railroad, but railwaymen handled a task. After the Second World War density of freight traffic grew. The number of railway tracks was increased at the station, from three to six. All-electric interlocking was introduced (it cancelled work of pointsmen) and radio communication with railroad engineers.
+
+
+== Economy ==
+The villagers are busy individual farming on household plots, the service of railways and other communications, and, to a small extent, commercial agriculture and trade. There is a branch of LLC "Agricultural Company Euroservice-Bekovo" (ООО "Агрофирма Евросервис-Беково") (cattle, agriculture) in the selo. This enterprise was declared bankrupt in 2010.
+
+
+== Streets ==
+Official name (Translation) / People's name (Translation)
+
+Vokzal'naya (Railway-Station)
+Zarechnaya (Over-the-River)
+Komsomol'skaya (Komsomol)
+Leninskaya (Lenin) / Bol'shaya (Big)
+Nagornaya (Hilltop)
+Oktyabr'skaya (October) / Barskaya (Master's)
+Pervomayskaya (May-Day) / Samodurovka (Wilful-Person)
+Pochtovaya (Postal)
+Revolutsionnaya (Revolutionary) / Berezovka (Birch)
+Sadovaya (Garden) / Latyshovka (Latvians)
+Sovetskaya (Soviet)
+Khopyornaya (Khopyor) / Nakhalovka (Impudent)
+Tsentral'naya usad'ba (Central farmstead)
+Shkol'naya (School)
+
+
+== Notable people ==
+Vladimir Labutin was a graduate of Sosnovka secondary school, who volunteered to the battle-front of the Second World War, and repeated the feat of Alexander Matrosov: he closed embrasure of Nazi bunker by his chest.A. P. Korneev lived and worked in Sosnovka. He was a selectionist who raised a variety of tomato named "Kornievskiy", which is widely known.
+Writer and artist Ivan Fyodorovich Sedov was born and lived in Sosnovka.
+
+
+== Gallery of Sosnovka and its surroundings ==
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+== References ==
+Bekovo, Penza Oblast
+Bekovsky District
+Penza
+Penza Oblast
+South Eastern Railway
+Khopyor River
+Rtishchevo
+
+
+=== Notes ===
+
+
+== External links ==
+Official website of the administration of Sosnovsky Selsoviet of Bekovsky District (in Russian)
+Official website of Sosnovka secondary comprehensive school (in Russian)
+Official website of Bekovsky District administration (in Russian)
+Video presentation
+Postal сodes and the list of the streets (in Russian)
+OKATO code (in Russian)
+The article "Settlements of Bekovsky District in 2007—2012" by M. S. Poluboyarov (in Russian)
+Unofficial website about Sosnovka and its history (in Russian)
+Amateur reconstruction of the Sosnovka church (in Russian)<n>Svyaznoy (Russian: Связной) is Russia's second-largest independent handset retailer, with over 2,900 stores in Russia and Belarus. Its founder and owner is Maksim Nogotkov. As of 2009, the company controls 22,4% of the Russian mobile retail market. Its main rival is Euroset.
+The company was known as Maxus between 1995 and 2002. As of July 2013, Svyaznoy was the only official reseller of iPhones in Russia. Since 2010 Nogotkov has also been developing a banking chain, Svyaznoy Bank.
+
+
+== References ==<n>This is a list of the world's best-selling albums of recorded music. To appear on the list, the figure must have been published by a reliable source and the album must have sold at least 20 million copies. This list can contbain any types of album, including studio albums, extended plays, greatest hits, compilations, various artists, soundtracks and remixes. The figures given do not take into account the resale of used albums.All albums included on this list have their available claimed figures supported by at least 30% in certified copies. The percentage amount of certified sales needed increases the newer the album is, so albums released before 1975 are only expected to have their claimed figures supported by at least 30% in certified copies. However, newer albums, such as 21 and Come Away with Me, are expected to have their claimed figures supported by at least 70% in certified copies. Certified copies are sourced from available online databases of local music industry associations. This is the reason why albums that would otherwise make the list, such as The Sound of Music, In-A-Gadda-Da-Vida, Parallel Lines, Spirits Having Flown, Private Dancer, Janet, Believe, Bolo Ta Ra Ra.., Human Clay, Laundry Service and Back to Black, have not been included. 
+As a result of the methodology that the American and Canadian certification-awarding bodies (the RIAA and Music Canada respectively) use, each disc in a multi-disc set is counted as one unit toward certification, leading to many double albums on the list—such as Pink Floyd's The Wall and the Beatles' The Beatles—being certified with a number double the number of copies sold there. Such albums have the certifications for the number of copies (not discs) shipped indicated. Conversely, the American certification level for double albums that fit onto one compact disc, such as the Saturday Night Fever soundtrack reflect the actual number of copies sold. In 2016, RIAA included streaming in addition to track sales and album sales based on the concept of album-equivalent unit for certification purposes, and certification therefore no longer reflects shipment alone. For example, in the update of the certification for Their Greatest Hits (1971–1975) by the Eagles in August 2018, the album was certified 38× Platinum (increasing from the previous 29× Platinum certification in 2006) based on the new criteria, making it then the album with the highest certification in the United States.Michael Jackson's Thriller, estimated to have sold 66 million copies worldwide, is the best-selling album. Although sales estimates for Thriller have been as high as 120 million copies, these sales figures are unreliable. Jackson also currently has the highest number of albums on the list with five, Celine Dion has four, while Whitney Houston, The Beatles and Madonna each have three.
+Groupings are based on different sales benchmarks, the highest being for claims of at least 40 million copies, and the lowest being for claims of 20–29 million copies. Albums are listed in order of number of copies sold and thereafter by the artist's first name. Markets' order within the table is based on the number of compact discs sold in each market, largest market at the top and smallest at the bottom.
+
+
+== Legend ==
+
+
+== 40 million copies or more ==
+*All sales figures are shown in millions
+
+
+== 30–39 million copies ==
+*All sales figures are shown in millions
+
+
+== 20–29 million copies ==
+*All sales figures are shown in millions
+
+
+== Timeline of the best-selling albums ==
+Notes
+
+
+== Best-selling album by year worldwide ==
+The charts of the best-selling albums by year in the world are compiled by the International Federation of the Phonographic Industry annually since 2001.  These charts are published in their two annual reports, the Digital Music Report and the Recording Industry in Numbers. Both the Digital Music Report and the Recording Industry in Numbers were replaced in 2016 by the Global Music Report.Units sold include physical copies and digital downloads.
+
+
+== See also ==
+List of best-selling albums by country
+List of best-selling music artists
+List of best-selling remix albums
+List of best-selling singles
+Lists of albums
+List of best-selling albums of the 21st century
+
+
+== Notes ==
+
+
+== References ==<n>Victoria Georgieva (Bulgarian: Виктория Георгиева; born 21 September 1997), known professionally by the mononym Victoria, is a Bulgarian singer and songwriter. She began her career after participating in season four of X Factor Bulgaria.
+It was revealed on 25 November 2019 that Georgieva will represent Bulgaria at the Eurovision Song Contest 2020 in Rotterdam.
+
+
+== Career ==
+
+
+=== Early career ===
+Georgieva started singing at age of eleven. After some time she enrolled in the vocal studio "Angel Voices" where her music teacher was Atanaska Lipcheva. Georgieva auditioned for the first 3 seasons of  X Factor Bulgaria, but she never made it past the judges, mostly because of her age.
+
+
+=== 2015:X Factor Bulgaria ===
+In 2015, after 3 attempts she finally made it past the judges and to the live shows.  She left the show on week 9.
+
+
+=== 2016–present: Debut single and Monte Music ===
+Even though she didn't win X Factor, she got an offer to join Virginia Records, but she declined it. In 2016 she joined Monte Music and on 10 June 2016 her first single was released. "Nishto Sluchayno" was directed by Bashmotion and featured VenZy and Niki Bakalov.
+
+
+== Discography ==
+
+
+=== Singles ===
+
+
+== References ==
+
+
+== External links ==
+Victoria Georgieva on IMDb
+Victoria Georgieva on Facebook<n>Igor Vladimirovich Rybakov (Russian: Игорь Владимирович Рыбаков; born 16 May 1972 in Magnitogorsk) is a Russian entrepreneur, Forbes 2018 world's richest people list member with financial condition at 1.2 Billion US dollars, co-owner of Technonicol corporation and co-founder of Rybakov Fund.
+
+
+== Biography ==
+Born 16 May 1972 in Magnitogorsk.
+Graduated school with advanced mathematics study in 1989, alongside with Correspondence Physical-Technical School  at Moscow Institute of Physics and Technology. Afterwards entered the Faculty of Physical and Quantum Electronics at MIPT.
+In 1996 graduated MIPT as engineer-physicist.
+
+
+=== Technonicol ===
+In 1992, while studying on 3rd course of institute, in collaboration with his classmate Sergei Kolesnikov found «Technonicol» company, which is included in Forbes Top 200 biggest private companies in Russia at the moment (91st place in 2015). TechnoNICOL Group comprises 55 production plants in Russia, Belarus, Lithuania, Czech Republic, Italy, United Kingdom and GermanyRybakov released the book «Thirst» in December 2017, in which he shared his vision of «Technonicole» foundation  and his business philosophy, and also told how he decided to engage in active philanthropy. The book «Thirst» was included in the shortlist of «Business book of the year in Russia» award.In 2018 TechnoNICOL acquired 100% of a large construction materials producer - IZOVOL (Belgorod, Russia). In November 2018, Igor Rybakov, together with his partner in TechnoNIKOL, Sergey Kolesnikov, won the EY competition “Entrepreneur of the Year 2018” in Russia. 
+
+
+=== Investments ===
+Nicole-PAK became the owner of a controlling stake in Anren Pack. Mr. Rybakov owns 50% of shares in Nicol-PAK company – vertically integrated producer of cardboard paper and cardboard paper goods. The company consists of five plants in Russia with total annual capacity of 255 thousand tons of cardboard paper. In February 2018 at metro station «Кurskaya» in Moscow, a "smart-office" of company SOK was opened. The office is acting on co-working basis. Igor Rybakov was co-investor of this project, his structures invested 1,2 billion rubles in SOK's co-working network.
+In the summer of 2018, the SOK coworking network owned by a billionaire and co-founder of the TechnoNikol Corporation, Igor Rybakov, took 3,200 square meters under management in the business center "Gardens of Beijing" next to "Mayakovskaya" metro station. According to the consulting company OF.RU, which acted as a consultant to the transaction, the lease agreement for a period of 10 years was signed in August. 
+In September 2018, SOK smart offices opened the largest co-working in Russia in the VTB Arena Park building on Leningradsky Avenue in Moscow.In April 2018 Israeli business integrator Prytek entered the Russian market to invest into Russian startups with average bill of  $2 million and promote them outside the country. The co-founder of «Technonicole» Igor Rybakov became the key Russian partner of Prytek. Prytek has already invested more than $100 million into 35 projects.  Prytek became a partner in the 2018 Chess Championship Match.
+
+
+=== Philanthropy ===
+In December 2015 Igor Rybakov and his wife Ekaterine (Russian: Екатерина) found the «Rybakov Fund». The Fund incorporators made the amount of 1 billion rubles to Finance the organization's projects, and still they plan to enlarge the investments.
+In 2016 «Rybakov Fund» was included Top 9 private charitable Funds in Russia by Ogoniok magazine.Following the results of  2017 Igor Rybakov was included Top 5 of the most writing businessmen in Russia by Kommersant newspaper.Mr. Rybakov launched an endowment fund – Legacy Endowment Foundation: “Philanthropy is the answer to technological changes. In particular, efficiency of philanthropy of the future will be defined by advanced technologies.”
+
+
+=== Personal life ===
+Igor Rybakov is an experienced yachtsman, he won the World Championship as part of the sailing yacht team  Technonicol (X-41).
+He supports the development of rowing sports, in particular, he supports the rowing festival «Russian Venice» (Russian:«Русская Венеция») in Vishniy Volochek (Russian: Вышнем Волочке).
+Rybakov also supports rowing sport club «Moscow Dragons» (Russian: «Московские Драконы»).
+Married, has four children. Wife – Ekaterina.
+
+
+== References ==
+
+
+== Links ==
+Official website<n>LSR Group (Russian: ОАО «Группа ЛСР»), is a Russian real estate development, construction and building materials company, one of the leaders in the real estate and building materials in Russia. The company is headquartered in St. Petersburg. The total number of employees is about 11,000 people (2019).https://www.lsrgroup.ru/company/karera
+
+
+== History ==
+The company was founded in 1993. The company's name derives from LenStroyRekonstruktsiya.
+LSR Group is an open joint stock company, and is a 100% owner of its major subsidiaries and companies.
+In November 2007 the company offered 12.5% of its share capital for trading at the London Stock Exchange and MICEX through IPO having raised US$772 million. After the offering, the company's market capitalization amounted to $6.8 billion.
+In April 2010 the company offered 10% of its share capital for trading at the London Stock Exchange and MICEX through SPO having raised US$398.1 million (including expenses for the offering).
+
+
+=== Major acquisitions and foundation of companies ===
+1993–1994
+
+entry into the reinforced concrete market of St. Petersburg: acquisition of OJSC Stroydetal which included reinforced concrete factories as well as joinery and metallic constructions factories;
+entry into the real estate market of St. Petersburg: foundation of OJSC Construction Corporation Renaissance of St. Petersburg.1997
+
+entry into the brick market of St. Petersburg: acquisition of OJSC LENSTROYKERAMIKA – a ceramic bricks producer (later the company and its clay deposit became a production subsidiary of OJSC Pobeda LSR).
+entry into the market of sand of the North-West region: acquisition of OJSC Rudas – the largest sand supplier in the region;1999
+
+acquisition of OJSC Lenstroyrekonstruktsiya (St. Petersburg) – a Soviet real estate developer in the city centre;
+acquisition of CJSC NPO Keramika (St. Petersburg) –  a ceramic bricks producer (later became a production subsidiary of OJSC Pobeda LSR)2001
+
+entry into the market of panel housing construction of St. Petersburg and the Leningrad region: acquisition of OJSC Gatchinsky DSK – the largest prefabricated concrete panel factory in the North-West region;
+entry into the market of mass market and business class real estate development in St. Petersburg: foundation of OOO Gatchinky DSK which was later renamed to OOO CityHouseBuilding Company (OOO GDSK);
+foundation of CJSC Mosstroyrekonstruktsiya – real estate developer and the first subsidiary in Moscow.2002
+
+entry into the crushed granite market of the North-West region: acquisition of OJSC Granit-Kuznechnoye – the largest crushed granite producer in the region;
+foundation of OOO Baltstroykomplekt – a wholesale supplier of building materials for construction companies of St. Petersburg and the Leningrad region;
+OJSC Stroydetal was renamed into CJSC Vertical – windows and doors producer;2003
+
+acquisition of OJSC PO Barrikada (St.Petersburg) – the largest reinforced concrete producer;
+entry into the ready-mix concrete market of St. Petersburg: acquisition of OJSC ZSK No.19, which was later renamed into OOO Obyedinenie 45 – a ready-mix concrete producer in the city;
+entry into the construction services market of St. Petersburg: acquisition of OJSC UM-260 – a company in tower cranes services;
+acquisition of OJSC Leningrad River Port (St. Petersburg) – a company with a complex for sea sand extraction in the Gulf of Finland (later became a subsidiary of OJSC Rudas);
+acquisition of OOO GATP-1 (St. Petersburg) – a company specializing in transportation of building materials;
+entry into the European real estate market: foundation of LSR Europe GmBH – a subsidiary of LSR Group in Germany;2004
+
+acquisition of CJSC Pobeda (St. Petersburg) – a ceramic bricks producer;
+acquisition of CJSC DSK Blok (St. Petersburg) – the largest prefabricated panel construction company in the North-West region;
+entry into the gated communities market of St. Petersburg: foundation of OOO Osobnyak.2005
+
+acquisition of CJSC Stroitelniy Trest No.28 (St. Petersburg) – a company specializing in foundation works;
+entry into the aerated concrete market: LSR-Aerated Concrete, the largest aerated concrete plant in Russia, is built. Later renamed into Aeroc SPb;
+LSR Group brick production subsidiaries are merged into one company – OJSC Pobeda LSR.2006
+
+entry into the reinforced concrete market of Moscow: acquisition of OJSC Zavod ZhBI-6 – a largest reinforced concrete producer in the city;
+entry into the ready-mix concrete market of Moscow: foundation of CJSC Obyedinenie 45-M;
+entry into the cement market of the North-West region: foundation of OOO Cement to implement the project of LSR Group cement plant construction in Stantsy of the Leningrad region;
+entry into the commercial real estate market of St. Petersburg: foundation of A Plus Estate to manage LSR Group commercial properties;2007–2008
+
+entry into the Yekaterinburg market. Acquisition of 5 companies: CJSC Nova-Story – the largest real estate developer, OOO SMU NOVA-Story – the largest construction contractor, OOO PKU Nova-StroyProekt – a design office, OOO Uralsheben – crushed granite producer and OJSC Betfor Reinforced Concrete Factory – a supplier of prefabricated concrete panel construction and the largest reinforced concrete producer in the Urals region;
+entry into the aerated concrete market of Ukraine: acquisition of OJSC Obukhiv Porous Concrete Plant  – the largest aerated concrete producer in the Kiev region; put into operation of the new aerated concrete plant in Berezan of the Kiev region;2010
+
+OJSC Granit-Kuznechnoye, a subsidiary of LSR Group, acquired a crushed granite producer (Leningrad region) – OOO Petrovsky Quarry;
+new cement plant of LSR Group was launched in Slantsy, the Leningrad region. Annual production capacity of the plant is 1.86 million tonnes.2011
+
+acquisition of OJSC Pavlovskaya Keramika (Moscow region) - facing bricks producer;
+acquisition of OOO 435 KNI (Leningrad region), crushed granite manufacturer with total estimated reserves of gneiso-granite of 84 million cub. m.2012
+
+Launch of brick plant in Pavlovsky Posad (Moscow region) with designed capacity of 70 million bricks per annum;
+Launch of a new brick plant in the Kirovsky district of the Leningrad region with annual production capacity of up to 160 million bricks.2013
+
+Start of construction of a low-rise residential neighbourhood Michurinsky with a total area of 232 thousand m2, which is the largest low-rise project in Yekaterinburg;
+Start of a large-scale project on a land plot with a total area of 600 hectares in St. Petersburg. The project implies construction of 4 million m2 of housing and social infrastructure facilities;
+Put into operation a reinforced concrete production complex with a capacity of 330 thousand m3 in the Leningrad region. It is the largest manufacturer of reinforced concrete items in the North-West federal district
+LSR Group has become the largest manufacturer of bricks in Russia after acquiring Ryabovsky brick plant. The combined capacity of our brick factories has now reached 450 million bricks per year;
+Put into operation our brick plant in Pavlovsky Posad, Moscow region. The production capacity of the factory stands at 70 million bricks per annum.2014
+
+LSR Group wins contest for redevelopment of industrial areas of I.A. Likhachov Plant (ZiL) in Moscow. Within implementation of the project 1.57 mln sq. m of a real property shall be constructed. The company offered the best terms and conditions for the project implementation and proved its compliance with the requirements.2015
+
+LSR Group has opened a new sales office in central St. Petersburg, on Nevsky Prospect;
+LSR Group starts selling flats in ZILART art class residential complex in Moscow. Within implementation of the project LSR Group is to build more than 1.5 mln sq. m of the real property, including 950 thousand sq. m of the housing, as well as social and cultural infrastructure facilities;
+LSR Group tops the national rating of Russia's 10 largest real estate developers;
+Start of a large-scalefederal cultural project of the museum companion center of the Hermitage in Moscow as a part of the ZILART project.2016
+
+A new sales office of LSR Group was opened in Murmansk;
+LSR Group completed the first building of ZILART residential project in Moscow;
+LSR Group started implementation of construction, reconstruction and operation project of tram lines in Krasnogvardeysky District of Saint Petersburg.2017
+
+Start of development of the territory on the Vasilievsky Island of St. Petersburg.Total area of the land plot is about 34 ha.
+LSR Group started implementation of a large-scale hotel project in Leipzig;
+LSR Group project portfolio value reached 144 bln rubles.
+
+
+== Company structure ==
+
+
+== References ==
+
+
+== External links ==
+LSR Group website<n>

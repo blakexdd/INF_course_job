@@ -1,5 +1,5 @@
 from django.forms import ModelForm
-from .models import Organization, Person, Dates
+from .models import Organization, Person, Dates, Search
 
 class Editing_Organization(ModelForm):
     class Meta:
@@ -17,3 +17,8 @@ class Editing_Days(ModelForm):
     class Meta:
         model = Dates
         fields = ['day', 'start', 'end']
+
+class Com_Search(ModelForm):
+    class Meta:
+        model = Search
+        fields = ['query']
