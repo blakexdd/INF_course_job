@@ -6,11 +6,19 @@ from organizations.views import Organization, Person, Dates
 from .forms import Loginform
 from organizations.forms import Editing_Organization, Editing_Person, Editing_Days, Com_Search
 from organizations.views import updating_organizations
-from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
-from sklearn.cluster import KMeans
 import wikipedia
-from gensim.models import FastText
 import re
+import pickle
+
+org_names = ['yandex', 'apple', 'samsung', 'mercedes',
+             'Oracle', 'Walt Disney', 'General Electric']
+y_dict_trans = {}
+
+for (org, i) in enumerate(org_names):
+    y_dict_trans[org] = i
+
+t_model = pickle.load(open('course_job/model.sav', 'rb'))
+
 
 def get_data():
     organizations = Organization.objects.all()
@@ -492,79 +500,22 @@ def home(request):
     # render function
     search = Com_Search(request.POST or None)
 
-    # cleaned words list
-    cleaned_words = []
-
     # getting all organizations
     organizations = Organization.objects.all()
 
-    sent = []
-    X_lables = []
 
-    for org in organizations:
-        sent.append(org.brief_description)
-        X_lables.append(org.name)
-
-    # with open('data.txt', 'w') as f:
-    #     for item in get_data():
-    #         f.write("%s<n>" % item)
-
-    with open('data.txt', 'r') as f:
-        data = f.read().split('<n>')
-
-    data.pop()
-
-    new_data = []
-    fast_text_data = []
-
-    for d in data:
-        new_data.append(re.sub(r'\W+', ' ', d))
-        fast_text_data.append((re.sub(r'\W+', ' ', d)).split(' '))
-
-    # creating tokenizing model
-    count_vect = CountVectorizer()
-
-    # transorming data
-    X_train = count_vect.fit_transform(new_data)
-
-    print(X_train.toarray())
-
-    # creating tf-idf model
-    tf_trans = TfidfTransformer().fit(X_train)
-
-    # transforming data
-    X_train_tf = tf_trans.transform(X_train)
-
-    print(X_train_tf.shape)
-
-    # creating model
-    model = KMeans(n_clusters=len(data))
-    model3 = FastText(size=4, window=3, min_count=1)
-
-    model3.build_vocab(fast_text_data)
-
-    total_words = model3.corpus_total_words
-
-    model3.train(fast_text_data, total_words=total_words, epochs=5)
-
-    print(model3.most_similar('ford'))
-
-
-    # training model
-    model.fit(X_train_tf)
 
     print('REQUEST', request.POST.get('query'))
     vars = dict(organizations=list_of_three, search_form=search)
 
     if request.POST.get('query') != None:
-        Search = count_vect.transform([request.POST.get('query')])
         empty_org = dict(id=-1, name=0)
 
-        print(Search)
-        print(X_lables[model.predict(Search)[0]])
-        finded_organization = Organization.objects.filter(name=X_lables[model.predict(Search)[0]])[0]
+        print('Org', t_model.predict(['yandex']))
 
-        vars = dict(organizations=[[finded_organization, empty_org, empty_org ]], search_form=search)
+        # finded_organization = Organization.objects.filter(name=y_dict_trans[t_model.predict(request.POST.get('query'))])[0]
+        #
+        # vars = dict(organizations=[[finded_organization, empty_org, empty_org ]], search_form=search)
     else:
         vars = dict(organizations=list_of_three, search_form=search)
 
