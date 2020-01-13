@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import wikipedia
 from sklearn.feature_extraction import CountVectorizer
 
@@ -42,3 +43,5 @@ collect_data(org_names)
 
 
 
+=======
+>>>>>>> 2fee59dbbb7187bcd710c0b2e9fb1deacd261e68
