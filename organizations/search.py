@@ -1,24 +1,44 @@
-from gensim.models import FastText
-from .models import Organization
+import wikipedia
+from sklearn.feature_extraction import CountVectorizer
 
-# initializing list of organization names
-organizations_names_list = []
+org_names = ['yandex', 'apple', 'samsung', 'mercedes', 'vk', 'ibm', 'at&t', 'McDonald’s', 'Coca-Cola',
+             'Oracle', 'Walt Disney', 'General Electric']
+pages_list = []
 
-def get_data():
-    # getting all organizations
-    organizations = Organization.objects.all()
 
-    # filling organization list names
-    for org in organizations:
-        organizations_names_list.append(org.name)
+def collect_data(org_names):
+    # setting language of wiki pages to Russian
+    wikipedia.set_lang('Ru')
 
-# initializing fasttext model
-model = FastText(size=4, min_count=1, window=3)
+    # initializing features and samples lists
+    X = []
+    y = []
 
-# building vocablulary
-model.build_vocab(organizations_names_list)
+    # getting pages describing our organizations
+    for org in org_names:
+        org_pages = wikipedia.search(org, results=2)
+        for page in org_pages:
+            pages_list.append((page, org))
 
-# training model
-model.train(sentences=organizations_names_list, total_examples=len(organizations_names_list), epochs=10)
+    # collection features and samples
+    for org_page, org_name in pages_list:
+        # print('Org_name: ', org_name)
+        # print('Org_page: ', org_page)
+        # print('Summary: ', (wikipedia.page(org_name)).summary)
+        # print('=======')
+        X.append((wikipedia.page(org_page)).summary)
+        y.append(org_name)
 
-print("Most similar to yandex", model.most_similar('Яйндекс'))
+    return X, y
+
+def build_vectors():
+    X, y = collect_data(org_names)
+
+    vectorizer = CountVectorizer()
+
+collect_data(org_names)
+
+
+
+
+

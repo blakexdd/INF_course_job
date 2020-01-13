@@ -49,13 +49,13 @@ class Organization(models.Model):
     name = models.CharField(max_length=40)
 
     # creating year of establishing organiazation
-    year_of_est = models.CharField(max_length=10)
+    year_of_est = models.CharField(max_length=10, default='Auto')
 
     # creating location of organization
-    location = models.CharField(max_length=70, default='St. Petersburg')
+    location = models.CharField(max_length=70, default='Auto')
 
     # creating brief description of organization
-    brief_description = models.CharField(max_length=500, default='Some organization')
+    brief_description = models.CharField(max_length=500, default='Auto')
 
     # creating persons working in the company
     person = models.ManyToManyField(Person)
