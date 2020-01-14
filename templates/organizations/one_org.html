@@ -23,15 +23,6 @@
 <div class="find_text">Информация об организации:</div>
 {% endblock %}
 {% block content %}
-    {% if user.is_superuser %}
-            <div style="position: absolute; right: 20vw; top: 40vw">
-                    <a href="{% url 'create_person'%}?name={{ name }}">
-                        <div class="wrapper buttons">
-                         <img src="../../static/images/add3.png" alt="add button">
-                        </div>
-                    </a>
-            </div>
-    {% endif %}
     <div id="organizations-1">
     <talbe>
         <tr>
@@ -55,6 +46,15 @@
             <div style="margin-right: 20vw; text-align: justify-all">
             {{ brief_description }}
             </div>
+                {% if user.is_superuser %}
+            <div style="position: relative; right: -60vw; top: 1vw">
+                    <a href="{% url 'create_person'%}?name={{ name }}">
+                        <div class="wrapper buttons">
+                         <img src="../../static/images/add3.png" alt="add button">
+                        </div>
+                    </a>
+            </div>
+    {% endif %}
         </tr>
         <br>
         <tr>

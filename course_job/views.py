@@ -7,7 +7,6 @@ from .forms import Loginform
 from organizations.forms import Editing_Organization, Editing_Person, Editing_Days, Com_Search
 from organizations.views import updating_organizations
 import wikipedia
-<<<<<<< HEAD
 import requests
 from bs4 import BeautifulSoup
 from gensim.models import FastText
@@ -21,7 +20,7 @@ y_dict_trans = {}
 for (org, i) in enumerate(org_names):
     y_dict_trans[org] = i
 
-t_model = pickle.load(open('course_job/model.sav', 'rb'))
+t_model = pickle.load(open('model.sav', 'rb'))
 
 
 def get_data():
@@ -541,29 +540,27 @@ def home(request):
     # render function
     search = Com_Search(request.POST or None)
 
-<<<<<<< HEAD
-=======
     # getting all organizations
     organizations = Organization.objects.all()
 
 
-
->>>>>>> 2fee59dbbb7187bcd710c0b2e9fb1deacd261e68
     print('REQUEST', request.POST.get('query'))
     vars = dict(organizations=list_of_three, search_form=search)
 
     if request.POST.get('query') != None:
         empty_org = dict(id=-1, name=0)
 
-<<<<<<< HEAD
         # finded_organization = Organization.objects.filter(name=X_lables[model.predict(Search)[0]])[0]
-=======
-        print('Org', t_model.predict(['yandex']))
->>>>>>> 2fee59dbbb7187bcd710c0b2e9fb1deacd261e68
+        print('Org', [request.POST.get('query')])
+        print('Type', type([request.POST.get('query')]))
+        print(y_dict_trans[t_model.predict([request.POST.get('query')])[0]])
 
-        # finded_organization = Organization.objects.filter(name=y_dict_trans[t_model.predict(request.POST.get('query'))])[0]
-        #
-        # vars = dict(organizations=[[finded_organization, empty_org, empty_org ]], search_form=search)
+        finded_organization = Organization.objects.filter(name=y_dict_trans[t_model.predict([request.POST.get('query')])[0]])
+        print(finded_organization)
+
+        finded_organization = Organization.objects.filter(name='yandex')
+
+        vars = dict(organizations=[[finded_organization, empty_org, empty_org ]], search_form=search)
     else:
         vars = dict(organizations=list_of_three, search_form=search)
 
