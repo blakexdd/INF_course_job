@@ -8,8 +8,6 @@ from organizations.forms import Editing_Organization, Editing_Person, Editing_Da
 from organizations.views import updating_organizations
 import wikipedia
 import requests
-from bs4 import BeautifulSoup
-from gensim.models import FastText
 import re
 import pickle
 
@@ -551,16 +549,9 @@ def home(request):
         empty_org = dict(id=-1, name=0)
 
         # finded_organization = Organization.objects.filter(name=X_lables[model.predict(Search)[0]])[0]
-        print('Org', [request.POST.get('query')])
-        print('Type', type([request.POST.get('query')]))
-        print(y_dict_trans[t_model.predict([request.POST.get('query')])[0]])
-
         finded_organization = Organization.objects.filter(name=y_dict_trans[t_model.predict([request.POST.get('query')])[0]])
-        print(finded_organization)
 
-        finded_organization = Organization.objects.filter(name='yandex')
-
-        vars = dict(organizations=[[finded_organization, empty_org, empty_org ]], search_form=search)
+        vars = dict(organizations=[[finded_organization[0], empty_org, empty_org ]], search_form=search)
     else:
         vars = dict(organizations=list_of_three, search_form=search)
 
